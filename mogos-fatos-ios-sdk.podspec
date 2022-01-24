@@ -54,5 +54,7 @@ Pod::Spec.new do |s|
 
   s.preserve_paths = "libFatos.a"
   s.vendored_libraries = 'libFatos.a'
+
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC', '-lc++' }
  
 end
