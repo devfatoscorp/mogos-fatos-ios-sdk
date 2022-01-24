@@ -1,0 +1,2 @@
+Products/usr/local/lib/*
+!Products/usr/local/lib/libFatos.a
