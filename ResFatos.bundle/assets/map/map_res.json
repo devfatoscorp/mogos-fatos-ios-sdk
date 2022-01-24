@@ -1,0 +1,32 @@
+{"frames": [
+
+{
+	"filename": "1.png",
+	"frame": {"x":0,"y":0,"w":123,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":123},
+	"sourceSize": {"w":123,"h":123}
+},
+{
+	"filename": "2.png",
+	"frame": {"x":123,"y":0,"w":123,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":123},
+	"sourceSize": {"w":123,"h":123}
+},
+{
+	"filename": "3.png",
+	"frame": {"x":246,"y":0,"w":123,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":81},
+	"sourceSize": {"w":123,"h":81}
+}],
+    "index": {
+        "maxid": 3,
+        "svcid":[1,2,3],
+        "imgid":[1,2,3]
+    }
+}
