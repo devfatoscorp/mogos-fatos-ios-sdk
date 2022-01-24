@@ -13,7 +13,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/devfatoscorp/mogos-fatos-ios-sdk.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '13.0'
-  s.source_files = "Products/usr/local/include/*.h"
+  s.source_files = [
+    "Products/usr/local/include/*.h",
+  ]
 #s.source_files = [
 #    'setting/*.h',
 #    'base/*.h',
@@ -45,6 +47,6 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.frameworks = 'GLKit', 'OpenGLES', 'QuartzCore', 'UIKit', 'Foundation', 'CoreGraphics', 'CoreAudio', 'WebKit', 'CoreTelephony', 'CoreLocation'
-  s.vendored_libraries = 'Products/usr/local/lib/*.a'
+  s.vendored_libraries = 'Products/usr/local/lib/libFatos.a'
  
 end
