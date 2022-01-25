@@ -1,6 +1,0 @@
-framework module Pods_Fatos {
-  umbrella header "Pods-Fatos-umbrella.h"
-
-  export *
-  module * { export * }
-}
