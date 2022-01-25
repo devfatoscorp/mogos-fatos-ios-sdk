@@ -16,11 +16,18 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.source_files = [
     "include/*.h",
+    "swift/*"
   ]
   s.public_header_files = [
-    "include/*.h"
+    "include/*.h",
+    "swift/*"
   ]
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'OTHER_LDFLAGS' => '-lObjC, -lc++'}
+  s.pod_target_xcconfig = { 
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+      'OTHER_LDFLAGS' => ['-lObjC', '-lc++', '$(inherited)'],
+      'DEFINES_MODULE' => 'YES',
+      'OTHER_SWIFT_FLAGS' => '$(inherited)'
+  }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.frameworks = 'GLKit', 'OpenGLES', 'QuartzCore', 'UIKit', 'Foundation', 'CoreGraphics', 'CoreAudio', 'WebKit', 'CoreTelephony', 'CoreLocation', 'AudioToolBox'
