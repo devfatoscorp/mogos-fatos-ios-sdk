@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
  
   s.ios.deployment_target = '13.0'
   s.source_files = [
-    "include/*.{h, swift}"
+    "include/*"
   ]
   s.pod_target_xcconfig = { 
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
