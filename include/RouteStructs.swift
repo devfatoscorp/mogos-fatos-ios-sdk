@@ -101,7 +101,7 @@ public enum TURN_TYPE : Int32, CaseIterable {
     case eTurn_viaGoal7               = 107 // 제1목적지 ~
     case eTurn_viaGoal8               = 108 // 제1목적지 ~
     case eTurn_viaGoal9               = 109 // 제1목적지 ~
-
+    
     case eTurn_viaGoal10 = 110 // 제1목적지 ~
     case eTurn_viaGoal11 = 111 // 제1목적지 ~
     case eTurn_viaGoal12 = 112 // 제1목적지 ~
@@ -112,7 +112,7 @@ public enum TURN_TYPE : Int32, CaseIterable {
     case eTurn_viaGoal17 = 117 // 제1목적지 ~
     case eTurn_viaGoal18 = 118 // 제1목적지 ~
     case eTurn_viaGoal19 = 119 // 제1목적지 ~
-
+    
     case eTurn_viaGoal20 = 120 // 제1목적지 ~
     case eTurn_viaGoal21 = 121 // 제1목적지 ~
     case eTurn_viaGoal22 = 122 // 제1목적지 ~
@@ -123,7 +123,7 @@ public enum TURN_TYPE : Int32, CaseIterable {
     case eTurn_viaGoal27 = 127 // 제1목적지 ~
     case eTurn_viaGoal28 = 128 // 제1목적지 ~
     case eTurn_viaGoal29 = 129 // 제1목적지 ~
-
+    
     case eTurn_viaGoal30 = 130 // 제1목적지 ~
     case eTurn_viaGoal31 = 131 // 제1목적지 ~
     case eTurn_viaGoal32 = 132 // 제1목적지 ~
@@ -134,7 +134,7 @@ public enum TURN_TYPE : Int32, CaseIterable {
     case eTurn_viaGoal37 = 137 // 제1목적지 ~
     case eTurn_viaGoal38 = 138 // 제1목적지 ~
     case eTurn_viaGoal39 = 139 // 제1목적지 ~
-
+    
     case eTurn_viaGoal40 = 140 // 제1목적지 ~
     case eTurn_viaGoal41 = 141 // 제1목적지 ~
     case eTurn_viaGoal42 = 142 // 제1목적지 ~
@@ -145,7 +145,7 @@ public enum TURN_TYPE : Int32, CaseIterable {
     case eTurn_viaGoal47 = 147 // 제1목적지 ~
     case eTurn_viaGoal48 = 148 // 제1목적지 ~
     case eTurn_viaGoal49 = 149 // 제1목적지 ~
-
+    
     case eTurn_viaGoal50 = 150 // 제1목적지 ~
     case eTurn_viaGoal51 = 151 // 제1목적지 ~
     case eTurn_viaGoal52 = 152 // 제1목적지 ~
@@ -156,7 +156,7 @@ public enum TURN_TYPE : Int32, CaseIterable {
     case eTurn_viaGoal57 = 157 // 제1목적지 ~
     case eTurn_viaGoal58 = 158 // 제1목적지 ~
     case eTurn_viaGoal59 = 159 // 제1목적지 ~
-
+    
     case eTurn_viaGoal60 = 160 // 제1목적지 ~
     case eTurn_viaGoal61 = 161 // 제1목적지 ~
     case eTurn_viaGoal62 = 162 // 제1목적지 ~
@@ -167,7 +167,7 @@ public enum TURN_TYPE : Int32, CaseIterable {
     case eTurn_viaGoal67 = 167 // 제1목적지 ~
     case eTurn_viaGoal68 = 168 // 제1목적지 ~
     case eTurn_viaGoal69 = 169 // 제1목적지 ~
-
+    
     case eTurn_viaGoal70 = 170 // 제1목적지 ~
     case eTurn_viaGoal71 = 171 // 제1목적지 ~
     case eTurn_viaGoal72 = 172 // 제1목적지 ~
@@ -178,7 +178,7 @@ public enum TURN_TYPE : Int32, CaseIterable {
     case eTurn_viaGoal77 = 177 // 제1목적지 ~
     case eTurn_viaGoal78 = 178 // 제1목적지 ~
     case eTurn_viaGoal79 = 179 // 제1목적지 ~
-
+    
     case eTurn_viaGoal80 = 180 // 제1목적지 ~
     case eTurn_viaGoal81 = 181 // 제1목적지 ~
     case eTurn_viaGoal82 = 182 // 제1목적지 ~
@@ -189,7 +189,7 @@ public enum TURN_TYPE : Int32, CaseIterable {
     case eTurn_viaGoal87 = 187 // 제1목적지 ~
     case eTurn_viaGoal88 = 188 // 제1목적지 ~
     case eTurn_viaGoal89 = 189 // 제1목적지 ~
-
+    
     case eTurn_viaGoal90 = 190 // 제1목적지 ~
     case eTurn_viaGoal91 = 191 // 제1목적지 ~
     case eTurn_viaGoal92 = 192 // 제1목적지 ~
@@ -200,9 +200,9 @@ public enum TURN_TYPE : Int32, CaseIterable {
     case eTurn_viaGoal97 = 197 // 제1목적지 ~
     case eTurn_viaGoal98 = 198 // 제1목적지 ~
     case eTurn_viaGoal99 = 199 // 제1목적지 ~
-
+    
     case eTurn_viaGoal100 = 200 // 200번까지 사용 금지 (경유 목적지 번호 활용)
-
+    
     case eTurn_straight_no_cost = 254 // mesh 경계점, 교차로 out 에서의 회전
     case eTurn_uturn_end        = 255 // 도로종료점유턴
 }
@@ -221,16 +221,16 @@ public struct route_one_st {
     public var cross_image_list      : [cross_image_st]      = []
     
     //MARK: - 엔진에서만 사용
-//    public var real_link        : [real_link]
-//    public var atbt             : [atbt_st]
-
+    //    public var real_link        : [real_link]
+    //    public var atbt             : [atbt_st]
+    
     mutating public func clear() -> Void {
         self.version = 0
         self.summary.clear()
         self.service_link_list.removeAll()
-//        self.real_link.removeAll()
+        //        self.real_link.removeAll()
         self.express_link_list.removeAll()
-//        self.atbt.removeAll()
+        //        self.atbt.removeAll()
         self.service_area_list.removeAll()
         self.tollgate_list.removeAll()
         self.direction_sign_list.removeAll()
@@ -481,7 +481,7 @@ public struct rg_one_st {
     // Interface
     public var comm         : comm_st           = comm_st()
     public var is_last_route: is_last_route_st  = is_last_route_st()
-
+    
     mutating public func clear() -> Void {
         ui.clear()
         view_visible.clear()
@@ -489,7 +489,7 @@ public struct rg_one_st {
         sdi_list.removeAll()
         voice_list.removeAll()
         via_list.removeAll()
-
+        
         comm.clear()
         is_last_route.clear()
     }
@@ -778,7 +778,7 @@ public struct rp_info_st {
     public var option_ex    : Int32             = 0                     // 경로탐색 추가 옵션(자동차) : 무료도로우선(0x1)/자동차전용도로회피(0x2)/오르막회피(0x4)/어린이보호구역회피(0x8)/페리항로회피(0x10)/골목길회피(0x20)
     public var layers       : String            = ""                    // 요청 레이어 리스트 (summary, service_link, real_link, express_link, atbt, service_area, tollgate, cross_image 을 | 구분자로 추가)
     public var useremail    : String            = ""                    // 유저 이메일
-
+    
     public var type         : Int32             = 0                     // 초탐/이탈/정주기/사용자
     public var site         : UInt32            = 0
     public var appversion   : UInt32            = 0
@@ -794,7 +794,7 @@ public struct rp_info_st {
     public var devicename   : String            = ""                    // 단말기 이름
     public var osversion    : String            = ""                    // 단말기 OS version
     public var svcprovider  : UInt32            = 0                     // 통신사
-
+    
     // 출발지 정보
     public var start_name   : String            = ""
     public var start_floor  : Int32             = 0
@@ -824,8 +824,8 @@ public struct rp_info_st {
     public var car_option   : car_option_st     = car_option_st()       // 차량 옵션
     public var route_option : route_option_st   = route_option_st()     // 경탐 옵션
     
-//    public var start_link   : mm_link_info_bit
-//    public var end_link     : location_Info_bit
+    //    public var start_link   : mm_link_info_bit
+    //    public var end_link     : location_Info_bit
     
     mutating public func clear() -> Void {
         self.source        = 0
@@ -878,7 +878,7 @@ public class route_result: NSObject {
         return ""
     }
     
-
+    
     
     internal func decode(mvt: VectorTile_Tile, coordinate: mvt_coordinate = .mvt_lonlat_t) -> Void {
         self.routeList.removeAll()
@@ -908,7 +908,7 @@ public class route_result: NSObject {
             layer.tz = UInt32(tileInfo.zoom)
             layer.tx = UInt32(tileInfo.column)
             layer.ty = UInt32(tileInfo.row)
-
+            
             tileInfo.is_layer = true
             
             
@@ -919,7 +919,7 @@ public class route_result: NSObject {
             }
             
             var routeOne = self.routeList[routeIndex]
-
+            
             if (layer.name.contains("summary") && !layer.features.isEmpty) {
                 decode_layer(mvt_layer: layer, tile_info: &tileInfo, summary: &routeOne.summary, coordinate: coordinate)
             }
@@ -941,29 +941,29 @@ public class route_result: NSObject {
             if (layer.name.contains("cross_image") && !layer.features.isEmpty) {
                 decode_layer(mvt_layer: layer, tile_info: &tileInfo, cross_image_list: &routeOne.cross_image_list, coordinate: coordinate)
             }
-
+            
             self.routeList[routeIndex] = routeOne
         }
         print("Decode done")
     }
-
+    
     internal func decode_layer(mvt_layer: VectorTile_Tile.Layer,
                                tile_info: inout mvt_tile_box,
                                summary: inout summary_st,
                                coordinate: mvt_coordinate) -> Void {
-
+        
         for f in 0..<mvt_layer.features.count {
             
             let feat = mvt_layer.features[f]
             let tagMap : [String:String] = mvt_layer.get_key_values(tags: feat.tags)
             feat.get_geometry(tile_info: tile_info, coord: coordinate, extent: Int(mvt_layer.extent), geoms_out: &summary.geoms)
             
-//            tile_info.mbr = MBR(min: VERTEXD(dx: Double(tagMap["min_lng"] ?? "0")!,
-//                                             dy: Double(tagMap["min_lat"] ?? "0")!),
-//                                max: VERTEXD(dx: Double(tagMap["max_lng"] ?? "0")!,
-//                                             dy: Double(tagMap["max_lat"] ?? "0")!))
-//            tile_info.diff.dx = tile_info.mbr.max.dx - tile_info.mbr.min.dx
-//            tile_info.diff.dy = tile_info.mbr.max.dy - tile_info.mbr.min.dy
+            //            tile_info.mbr = MBR(min: VERTEXD(dx: Double(tagMap["min_lng"] ?? "0")!,
+            //                                             dy: Double(tagMap["min_lat"] ?? "0")!),
+            //                                max: VERTEXD(dx: Double(tagMap["max_lng"] ?? "0")!,
+            //                                             dy: Double(tagMap["max_lat"] ?? "0")!))
+            //            tile_info.diff.dx = tile_info.mbr.max.dx - tile_info.mbr.min.dx
+            //            tile_info.diff.dy = tile_info.mbr.max.dy - tile_info.mbr.min.dy
             
             mvt_layer.get_value(tagMap: tagMap, tagKey: "copyrights", value: &summary.copyrights)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "source", value: &summary.source)
@@ -984,8 +984,8 @@ public class route_result: NSObject {
             summary.mbr = tile_info.mbr
             mvt_layer.get_value(tagMap: tagMap, tagKey: "summary", value: &summary.summary)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "summary_ex", value: &summary.summary_ex)
-
-//            tagMap.forEach { print("\($0)                   : \($1)") }
+            
+            //            tagMap.forEach { print("\($0)                   : \($1)") }
         }
     }
     internal func decode_layer(mvt_layer: VectorTile_Tile.Layer,
@@ -1025,7 +1025,7 @@ public class route_result: NSObject {
                                tile_info: inout mvt_tile_box,
                                express_link_list: inout [express_link_st],
                                coordinate: mvt_coordinate) -> Void {
-
+        
         var _new : express_link_st = express_link_st()
         express_link_list.reserveCapacity(mvt_layer.features.count)
         
@@ -1105,7 +1105,7 @@ public class route_result: NSObject {
                                tile_info: inout mvt_tile_box,
                                direction_sign_list: inout [direction_sign_st],
                                coordinate: mvt_coordinate) -> Void {
-
+        
         var _new : direction_sign_st = direction_sign_st()
         direction_sign_list.reserveCapacity(mvt_layer.features.count)
         
@@ -1170,52 +1170,52 @@ public class param_result: NSObject {
     let textMaxY = Double(mglDegreeToWorldY(f: 37.48302))
     
     public var testRP = param_one_st(version: 2, rp_info: rp_info_st(source: 2,
-                                                            lang: 0,
-                                                            option: 0,
-                                                            type: 0,
-                                                            start_name: "테스트 출발지 (파토스)",
-                                                            end_name: "테스트 도착지 (부산시청)",
-                                                            via_name: "",
-                                                            points: "126.89613,37.48302|129.07587,35.17989",
-                                                            geoms: mvt_geoms(geom_type: mvt_geom_type.point,
-                                                                             length: 0,
-                                                                             coordinate: mvt_coordinate.mvt_lonlat_t,
-                                                                             mbr: MBR32D(min: VERTEX32D(dx: 126.89613,
-                                                                                                        dy: 35.17989),
-                                                                                         max: VERTEX32D(dx: 129.07587,
-                                                                                                        dy: 37.48302)),
-                                                                             points: [VERTEX32D(dx: 126.89613, dy: 37.48302),
-                                                                                      VERTEX32D(dx: 129.07587, dy: 35.17989)],
-                                                                             lines: mvt_lines32d(),
-                                                                             polygons: [mvt_poloygons32d]()),
-                                                            max_lat: 37.48302,
-                                                            max_lng: 129.07587,
-                                                            min_lat: 35.17989,
-                                                            min_lng: 126.89613,
-                                                            car_option: car_option_st(car_type: 0,
-                                                                                      car_fuel: 0,
-                                                                                      hipass: false,
-                                                                                      car_weight: 290,
-                                                                                      car_height: 105,
-                                                                                      car_length: 0,
-                                                                                      uturnlane: 0,
-                                                                                      car_feetype: 0),
-                                                            route_option: route_option_st(search_option: 1,
-                                                                                          angle: Int32.max,
-                                                                                          speed: Int32.max,
-                                                                                          fee_option: 0,
-                                                                                          simple_mode: false,
-                                                                                          special_option: 0,
-                                                                                          road_cate: 0,
-                                                                                          traffic: false,
-                                                                                          unixtime: 621537389,
-                                                                                          gmt_offset: 32400,
-                                                                                          pattern: false,
-                                                                                          nonstop: 32400)))
+                                                                     lang: 0,
+                                                                     option: 0,
+                                                                     type: 0,
+                                                                     start_name: "테스트 출발지 (파토스)",
+                                                                     end_name: "테스트 도착지 (부산시청)",
+                                                                     via_name: "",
+                                                                     points: "126.89613,37.48302|129.07587,35.17989",
+                                                                     geoms: mvt_geoms(geom_type: mvt_geom_type.point,
+                                                                                      length: 0,
+                                                                                      coordinate: mvt_coordinate.mvt_lonlat_t,
+                                                                                      mbr: MBR32D(min: VERTEX32D(dx: 126.89613,
+                                                                                                                 dy: 35.17989),
+                                                                                                  max: VERTEX32D(dx: 129.07587,
+                                                                                                                 dy: 37.48302)),
+                                                                                      points: [VERTEX32D(dx: 126.89613, dy: 37.48302),
+                                                                                               VERTEX32D(dx: 129.07587, dy: 35.17989)],
+                                                                                      lines: mvt_lines32d(),
+                                                                                      polygons: [mvt_poloygons32d]()),
+                                                                     max_lat: 37.48302,
+                                                                     max_lng: 129.07587,
+                                                                     min_lat: 35.17989,
+                                                                     min_lng: 126.89613,
+                                                                     car_option: car_option_st(car_type: 0,
+                                                                                               car_fuel: 0,
+                                                                                               hipass: false,
+                                                                                               car_weight: 290,
+                                                                                               car_height: 105,
+                                                                                               car_length: 0,
+                                                                                               uturnlane: 0,
+                                                                                               car_feetype: 0),
+                                                                     route_option: route_option_st(search_option: 1,
+                                                                                                   angle: Int32.max,
+                                                                                                   speed: Int32.max,
+                                                                                                   fee_option: 0,
+                                                                                                   simple_mode: false,
+                                                                                                   special_option: 0,
+                                                                                                   road_cate: 0,
+                                                                                                   traffic: false,
+                                                                                                   unixtime: 621537389,
+                                                                                                   gmt_offset: 32400,
+                                                                                                   pattern: false,
+                                                                                                   nonstop: 32400)))
     
     internal func decode(mvt: VectorTile_Tile, coordinate: mvt_coordinate = .mvt_lonlat_t) -> Bool {
         mlist.removeAll()
-
+        
         let layerContainer  = mvt.layers
         let layerCount: Int = layerContainer.count
         var param_new       = param_one_st()
@@ -1224,9 +1224,9 @@ public class param_result: NSObject {
         
         for layerIndex in 0..<layerCount {
             var layer = mvt.layers[layerIndex]
-//            tileInfo.zoom = zigZagDecode(Int(layer.tz))
-//            tileInfo.column = zigZagDecode(Int(layer.tx))
-//            tileInfo.row = zigZagDecode(Int(layer.ty))
+            //            tileInfo.zoom = zigZagDecode(Int(layer.tz))
+            //            tileInfo.column = zigZagDecode(Int(layer.tx))
+            //            tileInfo.row = zigZagDecode(Int(layer.ty))
             self.tileInfo.zoom = Int(layer.tz)
             self.tileInfo.column = Int(layer.tx)
             self.tileInfo.row = Int(layer.ty)
@@ -1241,13 +1241,13 @@ public class param_result: NSObject {
             layer.tx = UInt32(tileInfo.column)
             layer.ty = UInt32(tileInfo.row)
             tileInfo.is_layer = true
-                      
-//            if (fields.count != 2) { continue }
-//            if (nParam != Int32(fields[0])) {
-//                param_new.clear()
-//                self.mlist.append(param_new)
-//                nParam += 2
-//            }
+            
+            //            if (fields.count != 2) { continue }
+            //            if (nParam != Int32(fields[0])) {
+            //                param_new.clear()
+            //                self.mlist.append(param_new)
+            //                nParam += 2
+            //            }
             
             param_new.clear()
             self.mlist.append(param_new)
@@ -1318,7 +1318,7 @@ public class param_result: NSObject {
             mvt.layers[layerIndex].values.removeAll()
             mvt.layers[layerIndex].features.removeAll()
             var _feat = VectorTile_Tile.Feature()
-
+            
             mvt.layers[layerIndex].add_key_values(key: "source", value: param_one.rp_info.source, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "lang", value: param_one.rp_info.lang, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "option", value: param_one.rp_info.option, feature: &_feat)
@@ -1334,7 +1334,7 @@ public class param_result: NSObject {
             mvt.layers[layerIndex].add_key_values(key: "authcode", value: param_one.rp_info.authcode, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "user_authcode", value: param_one.rp_info.user_authcode, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "sitesubcode", value: param_one.rp_info.sitesubcode, feature: &_feat)
-  
+            
             mvt.layers[layerIndex].add_key_values(key: "usercode", value: param_one.rp_info.usercode, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "devicename", value: param_one.rp_info.devicename, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "osversion", value: param_one.rp_info.osversion, feature: &_feat)
@@ -1343,7 +1343,7 @@ public class param_result: NSObject {
             mvt.layers[layerIndex].add_key_values(key: "start_name", value: param_one.rp_info.start_name, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "start_floor", value: param_one.rp_info.start_floor, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "start_dir", value: param_one.rp_info.start_dir, feature: &_feat)
-     
+            
             mvt.layers[layerIndex].add_key_values(key: "end_name", value: param_one.rp_info.end_name, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "end_rpflag", value: param_one.rp_info.end_rpflag, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "end_floor", value: param_one.rp_info.end_floor, feature: &_feat)
@@ -1355,12 +1355,12 @@ public class param_result: NSObject {
             mvt.layers[layerIndex].add_key_values(key: "via_dir", value: param_one.rp_info.via_dir, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "via_pass", value: param_one.rp_info.via_pass, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "via_multi_entcount", value: param_one.rp_info.via_multi_entcount, feature: &_feat)
-
+            
             mvt.layers[layerIndex].add_key_values(key: "max_lat", value: Double(param_one.rp_info.max_lat), feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "max_lng", value: Double(param_one.rp_info.max_lng), feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "min_lat", value: Double(param_one.rp_info.min_lat), feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "min_lng", value: Double(param_one.rp_info.min_lng), feature: &_feat)
-
+            
             
             // car option
             mvt.layers[layerIndex].add_key_values(key: "car_type", value: param_one.rp_info.car_option.car_type, feature: &_feat)
@@ -1387,7 +1387,7 @@ public class param_result: NSObject {
             mvt.layers[layerIndex].add_key_values(key: "nonstop", value: param_one.rp_info.route_option.nonstop, feature: &_feat)
             
             mvt.layers[layerIndex].add_key_values(key: "points", value: param_one.rp_info.points, feature: &_feat)
-
+            
             var nmbr : MBR32 = MBR32(min: VERTEX32(x: 0, y: 0), max: VERTEX32(x: 0, y: 0))
             nmbr.reset()
             nmbr.max.y = mglDegreeToWorldY(f: param_one.rp_info.max_lat)
@@ -1395,7 +1395,7 @@ public class param_result: NSObject {
             nmbr.max.x = mglDegreeToWorldX(f: param_one.rp_info.max_lng)
             nmbr.min.x = mglDegreeToWorldX(f: param_one.rp_info.min_lng)
             
-
+            
             var zoom : UInt32 = 0, col : UInt32 = 0, row : UInt32 = 0
             mvt.layers[layerIndex].extent = UInt32(mbr_extent(mbr: &nmbr, tileZoom: &zoom, tileColumn: &col, tileRow: &row))
             tileInfo.zoom = Int(zoom)
@@ -1408,9 +1408,9 @@ public class param_result: NSObject {
             tileInfo.mbr.max.dy = tiley2lat(y: tileInfo.row, z: tileInfo.zoom)
             tileInfo.diff.dx = tileInfo.mbr.max.dx - tileInfo.mbr.min.dx
             tileInfo.diff.dy = tileInfo.mbr.max.dy - tileInfo.mbr.min.dy
-//            mvt.layers[layerIndex].tz = UInt32(zigZagEncode(Int(zoom)))
-//            mvt.layers[layerIndex].tx = UInt32(zigZagEncode(Int(col)))
-//            mvt.layers[layerIndex].ty = UInt32(zigZagEncode(Int(row)))
+            //            mvt.layers[layerIndex].tz = UInt32(zigZagEncode(Int(zoom)))
+            //            mvt.layers[layerIndex].tx = UInt32(zigZagEncode(Int(col)))
+            //            mvt.layers[layerIndex].ty = UInt32(zigZagEncode(Int(row)))
             mvt.layers[layerIndex].tz = zoom
             mvt.layers[layerIndex].tx = col
             mvt.layers[layerIndex].ty = row
@@ -1614,11 +1614,14 @@ public class rg_result : NSObject {
                                 column: 0,
                                 row: 0)
     
+    public var rg : rg_one_st? {
+        return mlist.first
+    }
+    
     internal func encode(param_one: inout rg_one_st) -> Data? {
-
+        
         var mvt = VectorTile_Tile()
         encode_layer(mvt: &mvt, comm: &param_one.comm, site: .fatos_t, layer_name: "comm", version: 2)
-        
         
         do {
             return try mvt.serializedData()
@@ -1631,9 +1634,8 @@ public class rg_result : NSObject {
                                comm: inout comm_st,
                                site: site_type,
                                layer_name: String, version: Int) {
-
-        let layerCount : Int = 1
         
+        let layerCount : Int = 1
         for layerIndex in 0..<layerCount {
             mvt.layers.append(VectorTile_Tile.Layer())
             mvt.layers[layerIndex] = VectorTile_Tile.Layer.with {
@@ -1647,7 +1649,7 @@ public class rg_result : NSObject {
             var _feat = VectorTile_Tile.Feature()
             
             mvt.layers[layerIndex].add_key_values(key: "command", value: comm.command.rawValue, feature: &_feat)
-
+            
             var zoom : UInt32 = 0, col : UInt32 = 0, row : UInt32 = 0
             tileInfo.zoom = Int(zoom)
             tileInfo.column = Int(col)
@@ -1663,10 +1665,19 @@ public class rg_result : NSObject {
             mvt.layers[layerIndex].tx = col
             mvt.layers[layerIndex].ty = row
             
-//            var tile = tile_mvt()
-//            tile.tileInfo = tileInfo
-//            tile.encode_geometry(extent: Int(mvt.layers[layerIndex].extent), geoms: &param_one.ui.geoms, outFeature: &_feat)
+            //            var tile = tile_mvt()
+            //            tile.tileInfo = tileInfo
+            //            tile.encode_geometry(extent: Int(mvt.layers[layerIndex].extent), geoms: &param_one.ui.geoms, outFeature: &_feat)
             mvt.layers[layerIndex].features.append(_feat)
+        }
+    }
+    
+    open func decode(rg_data: Data) -> Bool {
+        do {
+            let rg_mvt = try VectorTile_Tile(serializedData: rg_data)
+            return self.decode(mvt: rg_mvt)
+        } catch {
+            return false
         }
     }
     
@@ -1714,7 +1725,7 @@ public class rg_result : NSObject {
                 rg_one = self.mlist[mlist.count - 1]
             }
             
-             
+            
             
             if (layer.name.contains("ui") && !layer.features.isEmpty) {
                 rg_one.version = Int32(layer.version)
@@ -1741,7 +1752,7 @@ public class rg_result : NSObject {
             if (layer.name.contains("is_last_route") && !layer.features.isEmpty) {
                 decode_layer(mvt_layer: layer, tile_info: &tileInfo, is_last_route: &rg_one.is_last_route, coordinate: coordinate)
             }
-
+            
             if (is_command) {
                 self.mCommandList[mCommandList.count - 1] = rg_one
             } else {
@@ -1755,13 +1766,13 @@ public class rg_result : NSObject {
                                tile_info: inout mvt_tile_box,
                                ui: inout ui_st,
                                coordinate: mvt_coordinate) -> Void {
-
+        
         for f in 0..<mvt_layer.features.count {
             
             let feat = mvt_layer.features[f]
             let tagMap : [String:String] = mvt_layer.get_key_values(tags: feat.tags)
             feat.get_geometry(tile_info: tile_info, coord: coordinate, extent: Int(mvt_layer.extent), geoms_out: &ui.geoms)
-
+            
             mvt_layer.get_value(tagMap: tagMap, tagKey: "has_route", value: &ui.has_route)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "has_around_via", value: &ui.has_around_via)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "route_idx", value: &ui.route_idx)
@@ -1804,13 +1815,13 @@ public class rg_result : NSObject {
                                tile_info: inout mvt_tile_box,
                                view_visible: inout view_visible_st,
                                coordinate: mvt_coordinate) -> Void {
-
+        
         for f in 0..<mvt_layer.features.count {
             
             let feat = mvt_layer.features[f]
             let tagMap : [String:String] = mvt_layer.get_key_values(tags: feat.tags)
             feat.get_geometry(tile_info: tile_info, coord: coordinate, extent: Int(mvt_layer.extent), geoms_out: &view_visible.geoms)
-
+            
             mvt_layer.get_value(tagMap: tagMap, tagKey: "first_tbt_visible", value: &view_visible.first_tbt_visible)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "second_tbt_visible", value: &view_visible.second_tbt_visible)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "sdi_visible", value: &view_visible.sdi_visible)
@@ -1830,7 +1841,7 @@ public class rg_result : NSObject {
             let feat = mvt_layer.features[f]
             let tagMap : [String:String] = mvt_layer.get_key_values(tags: feat.tags)
             feat.get_geometry(tile_info: tile_info, coord: coordinate, extent: Int(mvt_layer.extent), geoms_out: &tollgate.geoms)
-
+            
             mvt_layer.get_value(tagMap: tagMap, tagKey: "link_idx", value: &tollgate.link_idx)
             tollgate.type = tollgate_type(rawValue: Int32(tagMap["type"] ?? "0")!)                ?? .none_t
             mvt_layer.get_value(tagMap: tagMap, tagKey: "id", value: &tollgate.id)
@@ -1849,7 +1860,7 @@ public class rg_result : NSObject {
                                sdi_list: inout [sdi_st],
                                coordinate: mvt_coordinate) -> Void {
         
-
+        
         var _new    : sdi_st = sdi_st()
         sdi_list.reserveCapacity(mvt_layer.features.count)
         for f in 0..<mvt_layer.features.count {
@@ -1860,7 +1871,7 @@ public class rg_result : NSObject {
             sdi_list.append(_new)
             var sdi : sdi_st = sdi_list[sdi_list.count - 1]
             feat.get_geometry(tile_info: tile_info, coord: coordinate, extent: Int(mvt_layer.extent), geoms_out: &sdi.geoms)
-
+            
             sdi.disp_type       = sdi_display_type(rawValue: Int32(tagMap["disp_type"] ?? "0")!)   ?? .none_t
             sdi.type            = sdi_type(rawValue: Int32(tagMap["type"] ?? "0")!)                ?? .none_t
             sdi.visibility      = sdi_visibility_type(rawValue: Int32(tagMap["visibility"] ?? "0")!) ?? .none_t
@@ -1880,7 +1891,7 @@ public class rg_result : NSObject {
                                tile_info: inout mvt_tile_box,
                                voice_list: inout [voice_st],
                                coordinate: mvt_coordinate) -> Void {
-
+        
         var _new    : voice_st = voice_st()
         voice_list.reserveCapacity(mvt_layer.features.count)
         for f in 0..<mvt_layer.features.count {
@@ -1890,7 +1901,7 @@ public class rg_result : NSObject {
             _new.clear()
             voice_list.append(_new)
             var voice : voice_st = voice_list[voice_list.count - 1]
-
+            
             mvt_layer.get_value(tagMap: tagMap, tagKey: "id", value: &voice.id)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "text", value: &voice.text)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "play_complete", value: &voice.play_complete)
@@ -1914,7 +1925,7 @@ public class rg_result : NSObject {
             via_list.append(_new)
             var via : via_st = via_list[via_list.count - 1]
             feat.get_geometry(tile_info: tile_info, coord: coordinate, extent: Int(mvt_layer.extent), geoms_out: &via.geoms)
-
+            
             mvt_layer.get_value(tagMap: tagMap, tagKey: "remainder_dist", value: &via.remainder_dist)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "remainder_time", value: &via.remainder_time)
             
@@ -1932,7 +1943,7 @@ public class rg_result : NSObject {
             
             let feat = mvt_layer.features[f]
             let tagMap : [String:String] = mvt_layer.get_key_values(tags: feat.tags)
-
+            
             comm.command = rg_command_type(rawValue: Int32(tagMap["command"] ?? "0")!) ?? .none_t
         }
     }
@@ -1943,12 +1954,12 @@ public class rg_result : NSObject {
                                coordinate: mvt_coordinate) -> Void {
         
         is_last_route.clear()
-
+        
         for f in 0..<mvt_layer.features.count {
             
             let feat = mvt_layer.features[f]
             let tagMap : [String:String] = mvt_layer.get_key_values(tags: feat.tags)
-
+            
             mvt_layer.get_value(tagMap: tagMap, tagKey: "exists", value: &is_last_route.exists)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "goal_name", value: &is_last_route.goal_name)
             
@@ -1978,7 +1989,7 @@ public class voice_result: NSObject {
         for i in 0..<list.count {
             encode_layer(mvt: &mvt, voice_list: &list[i].voice_list, site: site_type.fatos_t, layer_name: layer_name, version: MVT_VOICE_VERSION)
         }
-
+        
         do {
             return try mvt.serializedData()
         } catch {
@@ -1991,7 +2002,7 @@ public class voice_result: NSObject {
                                site: site_type,
                                layer_name: String, version: Int) {
         
-
+        
         let layerCount : Int = voice_list.count
         
         for layerIndex in 0..<layerCount {
@@ -2007,7 +2018,7 @@ public class voice_result: NSObject {
             mvt.layers[layerIndex].values.removeAll()
             mvt.layers[layerIndex].features.removeAll()
             var _feat = VectorTile_Tile.Feature()
-
+            
             mvt.layers[layerIndex].add_key_values(key: "id", value: voice_one.id, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "text", value: voice_one.text, feature: &_feat)
             mvt.layers[layerIndex].add_key_values(key: "play_complete", value: voice_one.play_complete, feature: &_feat)
@@ -2020,7 +2031,7 @@ public class voice_result: NSObject {
                                tile_info: inout mvt_tile_box,
                                voice_list: inout [voice_st],
                                coordinate: mvt_coordinate) -> Void {
-
+        
         var _new    : voice_st = voice_st()
         voice_list.reserveCapacity(mvt_layer.features.count)
         for f in 0..<mvt_layer.features.count {
@@ -2030,7 +2041,7 @@ public class voice_result: NSObject {
             _new.clear()
             voice_list.append(_new)
             var voice : voice_st = voice_list[voice_list.count - 1]
-
+            
             mvt_layer.get_value(tagMap: tagMap, tagKey: "id", value: &voice.id)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "text", value: &voice.text)
             mvt_layer.get_value(tagMap: tagMap, tagKey: "play_complete", value: &voice.text)
@@ -2038,7 +2049,7 @@ public class voice_result: NSObject {
             voice_list[voice_list.count - 1] = voice
         }
     }
-
+    
 }
 
 
