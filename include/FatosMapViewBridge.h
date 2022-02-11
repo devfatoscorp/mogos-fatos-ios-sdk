@@ -32,8 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void) MapMove;
 + (void) MapMove:(float)fLonX fLatY:(float)fLatY;
 + (void) MapSelectRouteLine:(int)nIndex;
-+ (void) SummaryMapSetting:(NSDictionary *)lineColor
-xScale:(float)xScale yScale:(float)yScale
++ (void) SummaryMapSetting:(NSDictionary *)lineColor xScale:(float)xScale yScale:(float)yScale
                    hCenter:(float)hCenter vCenter:(float)vCenter blnViewMode:(BOOL)blnViewMode;
 + (void) DefaultMapSetting;
 + (void) SelectRouteLine:(int)index;
