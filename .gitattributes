@@ -1,4 +1,4 @@
 *.a filter=lfs diff=lfs merge=lfs -text
 swift/ filter=lfs diff=lfs merge=lfs -text
 *.framework filter=lfs diff=lfs merge=lfs -text
-MogosKit.framework/ filter=lfs diff=lfs merge=lfs -text
+MogosKit.framework/MogosKit filter=lfs diff=lfs merge=lfs -text
