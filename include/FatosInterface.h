@@ -9,8 +9,9 @@
 #ifndef FatosInterface_h
 #define FatosInterface_h
 
-#import "../nativeNavi/FatosNaviModule.h"
-#import "../service/GPSService.h"
+#import <CoreGraphics/CoreGraphics.h>
+#import <FatosNaviModule.h>
+#import <GPSService.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
