@@ -59,6 +59,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) Map_SetBuildingOnOff:(bool)bVisible;
 - (void) Map_SetBuildingHeight:(float)fHeight bVisibleOffAfterAnimation:(bool)bVisibleOffAfterAnimation;
 - (void) Map_SetRouteLineMode:(int)nMode;
+- (void) Map_SetFlag:(int)viewObj :(double)posX :(double)posY :(int) viaIdx;
+- (void) Map_SetStartGoalFlag:(NSString *)startName :(double)startX :(double)startY
+                             :(NSString *)goalName :(double)goalX :(double)goalY;
 - (int) Map_GetViewMode;
 - (int) Map_GetMapLevel;
 - (int) Map_GetTouchState;
