@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'mogos-fatos-ios-sdk'
-  s.version          = '0.0.30'
+  s.version          = '0.0.31'
   s.summary          = 'FATOS Mogos SDK for internal distribution via gitlab.'
 
   s.description      = <<-DESC
@@ -17,8 +17,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
   s.source_files = [
-    "include/*.{swift,h}"
+    #"include/*.{swift,h}"
+    "MogosKit.framework/Headers/*.h"
   ]
+  s.public_header_files = "MogosKit.framework/Headers/*.h"
   s.pod_target_xcconfig = {
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
       'OTHER_LDFLAGS' => ['-lObjC', '-lc++', '$(inherited)'],
@@ -28,12 +30,12 @@ Pod::Spec.new do |s|
   }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  s.frameworks = 'GLKit', 'OpenGLES', 'QuartzCore', 'UIKit', 'Foundation', 'CoreGraphics', 'CoreAudio', 'WebKit', 'CoreTelephony', 'CoreLocation', 'AudioToolBox'
-  s.dependency 'SwiftProtobuf'
+  #s.frameworks = 'GLKit', 'OpenGLES', 'QuartzCore', 'UIKit', 'Foundation', 'CoreGraphics', 'CoreAudio', 'WebKit', 'CoreTelephony', 'CoreLocation', 'AudioToolBox'
+  #s.dependency 'SwiftProtobuf'
 
-  s.preserve_paths = ["libFatos.a"]
-  s.vendored_libraries = 'libFatos.a'
-  #s.preserve_paths = ["MogosKit.framework"]
-  #s.vendored_frameworks = 'MogosKit.framework'
+  #s.preserve_paths = ["libFatos.a"]
+  #s.vendored_libraries = 'libFatos.a'
+  s.preserve_paths = ["MogosKit.framework"]
+  s.vendored_frameworks = 'MogosKit.framework'
 
 end
