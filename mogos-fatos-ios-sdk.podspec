@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'mogos-fatos-ios-sdk'
-  s.version          = '0.0.32'
+  s.version          = '0.0.33'
   s.summary          = 'FATOS Mogos SDK for internal distribution via gitlab.'
 
   s.description      = <<-DESC
@@ -26,7 +26,8 @@ Pod::Spec.new do |s|
       'OTHER_LDFLAGS' => ['-lObjC', '-lc++', '$(inherited)'],
       'DEFINES_MODULE' => 'YES',
       'OTHER_SWIFT_FLAGS' => '$(inherited)',
-      'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/include'
+      'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/include',
+      'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES'
   }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
