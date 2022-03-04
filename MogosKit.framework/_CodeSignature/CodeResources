@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MogosKit-Swift.h</key>
 		<data>
-		KwHW036AcZWwhFXPd95z3TwAaww=
+		2Up4z1vq+v3VZK91LJFBe9Lnxk0=
 		</data>
 		<key>Headers/MogosKit.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sq/XxiGJ/VgFwPfBQhk6oUIowmo=
+		FVGKABbjyDSDMmPdylOkHRygFvQ=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		i3kq9HrPn3fZr2LP5ioBTs/OmBs=
+		BMHUVAI6AxtmPRmpTNP+TNsVGX4=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		lMm44d7eyHph5N1EMK0H0DMJqp8=
+		1LHmGDZZGCYE/ZRnuYqlCJRGwf8=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		D+ru4z+y6BTgbPf8s+GeteMvgjs=
+		JkPOzXahfdh9eb4fdO97Syo4Omc=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		i3kq9HrPn3fZr2LP5ioBTs/OmBs=
+		BMHUVAI6AxtmPRmpTNP+TNsVGX4=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		lMm44d7eyHph5N1EMK0H0DMJqp8=
+		1LHmGDZZGCYE/ZRnuYqlCJRGwf8=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		D+ru4z+y6BTgbPf8s+GeteMvgjs=
+		JkPOzXahfdh9eb4fdO97Syo4Omc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xn17qyR3CX/dL6iRnBOyNHIQ4BVvmml3X5jHhRal2ms=
+			wZTJwTCPT3GfL2VWnuv/uqEAWszUE2AyZfwmvPQgWwg=
 			</data>
 		</dict>
 		<key>Headers/MogosKit.h</key>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			058bvW2o6IpuBGrZ+T0j95PnyX2Cm0sjmRziS5bOaPg=
+			ruvw/BClx+v+fbH99pQ3KdcJx8TgRAcjXT9wa2G8CwA=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HK+unq4o+XKPGzHuu98NX0cxXB/Fcw7TeXYagc1nd40=
+			MrjsnmsUznD7fWV4xAym8tvgP2Zu6Uegq45Tq4cSbWQ=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iSTckEsQ38gzw1P/wfdB9GRK6O9veAyK/cMsFLmpl6M=
+			D/VSn3/copUb2oD6prZTMcUOYNCpztuA2dew+HC+GGo=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			058bvW2o6IpuBGrZ+T0j95PnyX2Cm0sjmRziS5bOaPg=
+			ruvw/BClx+v+fbH99pQ3KdcJx8TgRAcjXT9wa2G8CwA=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HK+unq4o+XKPGzHuu98NX0cxXB/Fcw7TeXYagc1nd40=
+			MrjsnmsUznD7fWV4xAym8tvgP2Zu6Uegq45Tq4cSbWQ=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iSTckEsQ38gzw1P/wfdB9GRK6O9veAyK/cMsFLmpl6M=
+			D/VSn3/copUb2oD6prZTMcUOYNCpztuA2dew+HC+GGo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
