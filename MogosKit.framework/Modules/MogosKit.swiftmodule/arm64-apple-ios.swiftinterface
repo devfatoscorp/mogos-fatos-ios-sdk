@@ -12,6 +12,7 @@ import SwiftUI
 import SwiftyJSON
 import _Concurrency
 
+
 public enum eSearch_Special : Swift.Int {
   case PARKING
   case FUEL
