@@ -1,0 +1,21 @@
+[
+  {"Name":"Carvara","Major":1, "Minor":15},
+  {"Name":"Pin","Major":1, "Minor":6},
+  {"Name":"Pin_Hynix","Major":1, "Minor":0},
+  {"Name":"ScaleBar","Major":1, "Minor":0},
+  {"Name":"IcoPOI","Major":1, "Minor":3},
+  {"Name":"MapFont","Major":1, "Minor":8},
+  {"Name":"MapTooltip","Major":1, "Minor":9},
+  {"Name":"MapCenter","Major":1, "Minor":0},
+  {"Name":"TBTFont","Major":1, "Minor":0},
+  {"Name":"EV","Major":1, "Minor":6},
+  {"Name":"SDI","Major":1, "Minor":20},
+  {"Name":"SymbolDay","Major":1, "Minor":34},
+  {"Name":"SymbolNight","Major":1, "Minor":34},
+  {"Name":"FireFighting","Major":1, "Minor":3},
+  {"Name":"RoadSymbol","Major":1, "Minor":20},
+  {"Name":"MiniTBT", "Major":1, "Minor":0},
+  {"Name":"Building", "Major":0, "Minor":2},
+  {"Name":"Alternative", "Major":1, "Minor":3},
+  {"Name":"MapRes", "Major":1, "Minor":1}
+]
