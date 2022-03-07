@@ -1,0 +1,13 @@
+module Fatos {
+    header "../include/FatosNaviBridge.h"
+    header "../include/FatosMapViewBridge.h"
+    header "../include/FatosEnvBridge.h"
+    header "../include/FatosDevelopBridge.h"
+
+    header "../include/FatosInterface.h"
+
+    header "../include/FatosMapUtil.h"
+    header "../include/FatosMapView.h"
+
+    export *
+}

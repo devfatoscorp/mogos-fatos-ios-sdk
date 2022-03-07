@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Fatos'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'FATOS Mogos SDK for internal distribution via gitlab.'
 
   s.description      = <<-DESC
@@ -19,18 +19,19 @@ Pod::Spec.new do |s|
   s.source_files = [
     "include/*.h"
   ]
+  s.preserve_path = 'module/module.modulemap'
+  s.module_map = 'module/module.modulemap'
   s.pod_target_xcconfig = {
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-      'OTHER_LDFLAGS' => ['-lObjC', '-lc++', ''],
+      'OTHER_LDFLAGS' => ['-ObjC', '-lc++', ''],
       'DEFINES_MODULE' => 'YES',
       'OTHER_SWIFT_FLAGS' => '',
+      'HEADER_SEARCH_PATHS' => ' /Fatos/module',
       'SWIFT_INCLUDE_PATHS' => '/include'
   }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.frameworks = 'GLKit', 'OpenGLES', 'QuartzCore', 'UIKit', 'Foundation', 'CoreGraphics', 'CoreAudio', 'WebKit', 'CoreTelephony', 'CoreLocation', 'AudioToolBox', 'AVFoundation'
-
-  s.preserve_paths = ["libFatos.a"]
   s.vendored_libraries = 'libFatos.a'
 
 end
