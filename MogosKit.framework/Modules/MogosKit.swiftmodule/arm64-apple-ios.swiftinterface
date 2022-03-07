@@ -1,0 +1,914 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MogosKit
+import AVFoundation
+import CallKit
+import Fatos
+import Foundation
+@_exported import MogosKit
+import Swift
+import SwiftProtobuf
+import SwiftUI
+import SwiftyJSON
+import _Concurrency
+
+
+public enum eSearch_Special : Swift.Int {
+  case PARKING
+  case FUEL
+  case HOTEL
+  case RESTAURANT
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class search_result : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+public func getDocumentsDirectory() -> Foundation.URL?
+public func mglLogDebug(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
+public enum mvt_operation : Swift.UInt32, Swift.CaseIterable {
+  case mvt_moveto_t
+  case mvt_lineto_t
+  case mvt_closepath_t
+  public init?(rawValue: Swift.UInt32)
+  public typealias AllCases = [MogosKit.mvt_operation]
+  public typealias RawValue = Swift.UInt32
+  public static var allCases: [MogosKit.mvt_operation] {
+    get
+  }
+  public var rawValue: Swift.UInt32 {
+    get
+  }
+}
+public enum mvt_coordinate : Swift.UInt32, Swift.CaseIterable {
+  case mvt_coordinate_none
+  case mvt_tile_t
+  case mvt_world_t
+  case mvt_lonlat_t
+  public init?(rawValue: Swift.UInt32)
+  public typealias AllCases = [MogosKit.mvt_coordinate]
+  public typealias RawValue = Swift.UInt32
+  public static var allCases: [MogosKit.mvt_coordinate] {
+    get
+  }
+  public var rawValue: Swift.UInt32 {
+    get
+  }
+}
+public enum site_type : Swift.Int32, Swift.CaseIterable {
+  case none_t
+  case fatos_t
+  case naver_link_t
+  case max_t
+  public init?(rawValue: Swift.Int32)
+  public typealias AllCases = [MogosKit.site_type]
+  public typealias RawValue = Swift.Int32
+  public static var allCases: [MogosKit.site_type] {
+    get
+  }
+  public var rawValue: Swift.Int32 {
+    get
+  }
+}
+public enum express_link_type : Swift.Int32, Swift.CaseIterable {
+  case none_t
+  case service_area_t
+  case rest_area_t
+  case interchange_t
+  case junction_t
+  case tollgate_t
+  case via_t
+  case express_in_t
+  case max_t
+  public init?(rawValue: Swift.Int32)
+  public typealias AllCases = [MogosKit.express_link_type]
+  public typealias RawValue = Swift.Int32
+  public static var allCases: [MogosKit.express_link_type] {
+    get
+  }
+  public var rawValue: Swift.Int32 {
+    get
+  }
+}
+public enum request_type : Swift.Int32, Swift.CaseIterable {
+  case none_t
+  case route_first_t
+  case route_re_t
+  case route_user_t
+  case route_periodic_t
+  case route_alternative_t
+  case route_user_first_t
+  case route_user_add_t
+  case route_continue_t
+  case route_manual_t
+  case voice_tts_send_t
+  case voice_wave_send_t
+  case config_set_t
+  case route_revert_t
+  case route_change_first_t
+  case route_summary_t
+  case route_summary_cancel_t
+  case mvt_command_t
+  public init?(rawValue: Swift.Int32)
+  public typealias AllCases = [MogosKit.request_type]
+  public typealias RawValue = Swift.Int32
+  public static var allCases: [MogosKit.request_type] {
+    get
+  }
+  public var rawValue: Swift.Int32 {
+    get
+  }
+}
+public enum rg_command_type : Swift.Int32, Swift.CaseIterable {
+  case none_t
+  case is_last_route_t
+  case load_last_route_t
+  case rg_pause_t
+  case rg_resume_t
+  case waypoint_pass_t
+  case remove_last_route_t
+  public init?(rawValue: Swift.Int32)
+  public typealias AllCases = [MogosKit.rg_command_type]
+  public typealias RawValue = Swift.Int32
+  public static var allCases: [MogosKit.rg_command_type] {
+    get
+  }
+  public var rawValue: Swift.Int32 {
+    get
+  }
+}
+public enum tollgate_type : Swift.Int32, Swift.CaseIterable {
+  case none_t
+  case open_t
+  case close_t
+  case one_t
+  case max_t
+  public init?(rawValue: Swift.Int32)
+  public typealias AllCases = [MogosKit.tollgate_type]
+  public typealias RawValue = Swift.Int32
+  public static var allCases: [MogosKit.tollgate_type] {
+    get
+  }
+  public var rawValue: Swift.Int32 {
+    get
+  }
+}
+public enum service_area_type : Swift.Int, Swift.CaseIterable {
+  case truck
+  case sleeping
+  case shower
+  case laundry
+  case car_wash
+  case repair_shop
+  case pharmacy
+  case restaurant
+  case convenience_store
+  case toilet
+  case lowest_gas_station
+  case ev_charging_station
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [MogosKit.service_area_type]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [MogosKit.service_area_type] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum sdi_display_type : Swift.Int32, Swift.CaseIterable {
+  case none_t
+  case main_t
+  case sub_t
+  case max_t
+  public init?(rawValue: Swift.Int32)
+  public typealias AllCases = [MogosKit.sdi_display_type]
+  public typealias RawValue = Swift.Int32
+  public static var allCases: [MogosKit.sdi_display_type] {
+    get
+  }
+  public var rawValue: Swift.Int32 {
+    get
+  }
+}
+public enum sdi_visibility_type : Swift.Int32, Swift.CaseIterable {
+  case none_t
+  case show_t
+  case hide_t
+  case max_t
+  public init?(rawValue: Swift.Int32)
+  public typealias AllCases = [MogosKit.sdi_visibility_type]
+  public typealias RawValue = Swift.Int32
+  public static var allCases: [MogosKit.sdi_visibility_type] {
+    get
+  }
+  public var rawValue: Swift.Int32 {
+    get
+  }
+}
+public enum sdi_type : Swift.Int32, Swift.CaseIterable {
+  case none_t
+  case cam_fixed_speed_t
+  case cam_fixed_bus_speed_t
+  case cam_fixed_360_t
+  case cam_fixed_section_t
+  case cam_fixed_section_end_t
+  case cam_fixed_load_bad_t
+  case cam_fixed_sign_unattached_t
+  case cam_fixed_bux_lane_t
+  case cam_mobile_t
+  case cam_locad_over_t
+  case dvc_load_over_scale_t
+  case dvc_recognition_car_number_t
+  case dvc_collect_traffic_t
+  case cam_violation_signal_t
+  case cam_violation_signal_mockup_t
+  case cam_parking_stop_t
+  case cam_side_of_road_t
+  case cam_cut_in_t
+  case cam_variable_lane_t
+  case cam_tail_t
+  case tunnel_t
+  case black_ice_start_t
+  case black_ice_end_t
+  case toll_open_t
+  case toll_in_t
+  case toll_out_t
+  case reserve_27_t
+  case cctv_t
+  case restarea_t
+  case accident_t
+  case sharp_curve_t
+  case fog_area_t
+  case school_zone_in_t
+  case school_zone_out_t
+  case cross_railroad_t
+  case hump_t
+  case water_danger_in_t
+  case water_danger_area_t
+  case height_limit_t
+  case weight_limit_t
+  case height_weight_limit_t
+  case cdg_sharp_curve_left_t
+  case cdg_sharp_curve_right_t
+  case cdg_winding_left_t
+  case cdg_winding_right_t
+  case cdg_zigzag_left_t
+  case cdg_zigzag_right_t
+  case cdg_narrows_t
+  case cdg_narrows_left_t
+  case cdg_narrows_right_t
+  case cdg_narrows_bridge_t
+  case cdg_cross_railway_t
+  case cdg_cross_railway_barriers_t
+  case cdg_cross_railway_junction_t
+  case cdg_width_limit_t
+  case cdg_height_limit_t
+  case cdg_steep_upwards_t
+  case cdg_steep_downwards_t
+  case cdg_slippery_road_t
+  case cdg_loose_surface_t
+  case cdg_falling_rocks_t
+  case cdg_warning_sign_t
+  case cdg_protected_child_t
+  case cdg_animal_crossing_t
+  case cdg_no_overtaking_t
+  case cdg_end_restriction_t
+  case cdg_speed_hump_t
+  case cdg_accident_t
+  case cdg_cam_redlight_t
+  case cdg_cam_lanechange_t
+  case max_t
+  public init?(rawValue: Swift.Int32)
+  public typealias AllCases = [MogosKit.sdi_type]
+  public typealias RawValue = Swift.Int32
+  public static var allCases: [MogosKit.sdi_type] {
+    get
+  }
+  public var rawValue: Swift.Int32 {
+    get
+  }
+}
+public struct mvt_tile_box {
+  public mutating func setMBR(mbr: MogosKit.MBR32D)
+  public mutating func setDiff(diff: MogosKit.VERTEX32D)
+  public mutating func clear()
+}
+public struct mvt_geoms {
+  public mutating func clear()
+}
+public struct MBR32D {
+  public mutating func reset()
+}
+public struct MBR32 {
+  public mutating func reset()
+}
+public struct VERTEX32 {
+  public mutating func reset()
+}
+public struct VERTEX32D {
+  public mutating func reset()
+}
+public enum TURN_TYPE : Swift.Int32, Swift.CaseIterable {
+  case eTurn_none
+  case eTurn_straight
+  case eTurn_turn_left
+  case eTurn_turn_right
+  case eTurn_turn_slight_left
+  case eTurn_turn_slight_right
+  case eTurn_turn_sharp_left
+  case eTurn_turn_sharp_right
+  case eTurn_ramp_left
+  case eTurn_ramp_right
+  case eTurn_fork_left
+  case eTurn_fork_right
+  case eTurn_keep_left
+  case eTurn_keep_right
+  case eTurn_uturn_left
+  case eTurn_uturn_right
+  case eTurn_pturn_left
+  case eTurn_pturn_right
+  case eTurn_roundabout_left
+  case eTurn_roundabout_right
+  case eTurn_merge
+  case eTurn_1st_highway_in
+  case eTurn_1st_highway_exit
+  case eTurn_1st_highway_in_left
+  case eTurn_1st_highway_exit_left
+  case eTurn_1st_highway_in_right
+  case eTurn_1st_highway_exit_right
+  case eTurn_2nd_highway_in
+  case eTurn_2nd_highway_exit
+  case eTurn_2nd_highway_in_left
+  case eTurn_2nd_highway_exit_left
+  case eTurn_2nd_highway_in_right
+  case eTurn_2nd_highway_exit_right
+  case eTurn_tunnel
+  case eTurn_overpass
+  case eTurn_overpass1
+  case eTurn_overpass_left
+  case eTurn_overpass_right
+  case eTurn_underpass
+  case eTurn_underpass_left
+  case eTurn_underpass_right
+  case eTurn_left_underpass
+  case eTurn_right_underpass
+  case eTurn_tollgate
+  case eTurn_ferry_train
+  case eTurn_ferry
+  case eTurn_left_overpass
+  case eTurn_right_overpass
+  case eTurn_service_area
+  case eTurn_origin
+  case eTurn_destination
+  case eTurn_via1
+  case eTurn_via2
+  case eTurn_via3
+  case eTurn_rest_area
+  case eTurn_left_sa
+  case eTurn_ic
+  case eTurn_left_ic
+  case eTurn_jc
+  case eTurn_via
+  case eTurn_via4
+  case eTurn_left_sa_ic
+  case eTurn_left_sa_jc
+  case eTurn_left_jc
+  case eTurn_left_rest_area
+  case eTurn_rotary_0
+  case eTurn_rotary_1
+  case eTurn_rotary_2
+  case eTurn_rotary_3
+  case eTurn_rotary_4
+  case eTurn_rotary_5
+  case eTurn_rotary_6
+  case eTurn_rotary_7
+  case eTurn_rotary_uturn
+  case eTurn_rotary_0_clockwise
+  case eTurn_rotary_1_clockwise
+  case eTurn_rotary_2_clockwise
+  case eTurn_rotary_3_clockwise
+  case eTurn_rotary_4_clockwise
+  case eTurn_rotary_5_clockwise
+  case eTurn_rotary_6_clockwise
+  case eTurn_rotary_7_clockwise
+  case eTurn_rotary_uturn_clockwise
+  case eTurn_viaGoal1
+  case eTurn_viaGoal2
+  case eTurn_viaGoal3
+  case eTurn_viaGoal4
+  case eTurn_viaGoal5
+  case eTurn_viaGoal6
+  case eTurn_viaGoal7
+  case eTurn_viaGoal8
+  case eTurn_viaGoal9
+  case eTurn_viaGoal10
+  case eTurn_viaGoal11
+  case eTurn_viaGoal12
+  case eTurn_viaGoal13
+  case eTurn_viaGoal14
+  case eTurn_viaGoal15
+  case eTurn_viaGoal16
+  case eTurn_viaGoal17
+  case eTurn_viaGoal18
+  case eTurn_viaGoal19
+  case eTurn_viaGoal20
+  case eTurn_viaGoal21
+  case eTurn_viaGoal22
+  case eTurn_viaGoal23
+  case eTurn_viaGoal24
+  case eTurn_viaGoal25
+  case eTurn_viaGoal26
+  case eTurn_viaGoal27
+  case eTurn_viaGoal28
+  case eTurn_viaGoal29
+  case eTurn_viaGoal30
+  case eTurn_viaGoal31
+  case eTurn_viaGoal32
+  case eTurn_viaGoal33
+  case eTurn_viaGoal34
+  case eTurn_viaGoal35
+  case eTurn_viaGoal36
+  case eTurn_viaGoal37
+  case eTurn_viaGoal38
+  case eTurn_viaGoal39
+  case eTurn_viaGoal40
+  case eTurn_viaGoal41
+  case eTurn_viaGoal42
+  case eTurn_viaGoal43
+  case eTurn_viaGoal44
+  case eTurn_viaGoal45
+  case eTurn_viaGoal46
+  case eTurn_viaGoal47
+  case eTurn_viaGoal48
+  case eTurn_viaGoal49
+  case eTurn_viaGoal50
+  case eTurn_viaGoal51
+  case eTurn_viaGoal52
+  case eTurn_viaGoal53
+  case eTurn_viaGoal54
+  case eTurn_viaGoal55
+  case eTurn_viaGoal56
+  case eTurn_viaGoal57
+  case eTurn_viaGoal58
+  case eTurn_viaGoal59
+  case eTurn_viaGoal60
+  case eTurn_viaGoal61
+  case eTurn_viaGoal62
+  case eTurn_viaGoal63
+  case eTurn_viaGoal64
+  case eTurn_viaGoal65
+  case eTurn_viaGoal66
+  case eTurn_viaGoal67
+  case eTurn_viaGoal68
+  case eTurn_viaGoal69
+  case eTurn_viaGoal70
+  case eTurn_viaGoal71
+  case eTurn_viaGoal72
+  case eTurn_viaGoal73
+  case eTurn_viaGoal74
+  case eTurn_viaGoal75
+  case eTurn_viaGoal76
+  case eTurn_viaGoal77
+  case eTurn_viaGoal78
+  case eTurn_viaGoal79
+  case eTurn_viaGoal80
+  case eTurn_viaGoal81
+  case eTurn_viaGoal82
+  case eTurn_viaGoal83
+  case eTurn_viaGoal84
+  case eTurn_viaGoal85
+  case eTurn_viaGoal86
+  case eTurn_viaGoal87
+  case eTurn_viaGoal88
+  case eTurn_viaGoal89
+  case eTurn_viaGoal90
+  case eTurn_viaGoal91
+  case eTurn_viaGoal92
+  case eTurn_viaGoal93
+  case eTurn_viaGoal94
+  case eTurn_viaGoal95
+  case eTurn_viaGoal96
+  case eTurn_viaGoal97
+  case eTurn_viaGoal98
+  case eTurn_viaGoal99
+  case eTurn_viaGoal100
+  case eTurn_straight_no_cost
+  case eTurn_uturn_end
+  public init?(rawValue: Swift.Int32)
+  public typealias AllCases = [MogosKit.TURN_TYPE]
+  public typealias RawValue = Swift.Int32
+  public static var allCases: [MogosKit.TURN_TYPE] {
+    get
+  }
+  public var rawValue: Swift.Int32 {
+    get
+  }
+}
+public struct route_one_st {
+  public var version: Swift.Int32
+  public var summary: MogosKit.summary_st
+  public var service_link_list: [MogosKit.service_link_st]
+  public var express_link_list: [MogosKit.express_link_st]
+  public var service_area_list: [MogosKit.service_area_st]
+  public var tollgate_list: [MogosKit.tollgate_st]
+  public var direction_sign_list: [MogosKit.direction_sign_st]
+  public var cross_image_list: [MogosKit.cross_image_st]
+  public mutating func clear()
+}
+public struct summary_st {
+  public mutating func clear()
+}
+public struct service_link_st {
+  public var svc_idx: Swift.Int32
+  public var turn_code: MogosKit.TURN_TYPE
+  public var start_link: Swift.Int32
+  public var end_link: Swift.Int32
+  public var remainder_dist: Swift.Int32
+  public var remainder_time: Swift.Int32
+  public var length: Swift.Int32
+  public var duration: Swift.Int32
+  public var str_length: Swift.String
+  public var string_info: Swift.String
+  public var rotary_dir_idx: Swift.Int32
+  public var geoms: MogosKit.mvt_geoms
+  public mutating func clear()
+  public mutating func transform(svc_idx: Swift.Int32, turn_code: MogosKit.TURN_TYPE, start_link: Swift.Int32, end_link: Swift.Int32, remainder_dist: Swift.Int32, remainder_time: Swift.Int32, length: Swift.Int32, duration: Swift.Int32, string_info: Swift.String, geoms: MogosKit.mvt_geoms)
+}
+public struct express_link_st {
+  public var type: MogosKit.express_link_type
+  public var link_idx: Swift.Int32
+  public var remainder_dist: Swift.Int32
+  public var remainder_time: Swift.Int32
+  public var string_info: Swift.String
+  public var geoms: MogosKit.mvt_geoms
+  public mutating func clear()
+  public mutating func transform(link_idx: Swift.Int32, string_info: Swift.String, geoms: MogosKit.mvt_geoms)
+}
+public struct service_area_st {
+  public var link_idx: Swift.Int32
+  public var service: Swift.String
+  public var oil_brand: Swift.Int32
+  public var gas_brand: Swift.Int32
+  public var name: Swift.String
+  public var geoms: MogosKit.mvt_geoms
+  public mutating func clear()
+  public mutating func transform(link_idx: Swift.Int32, service: Swift.String, oil_brand: Swift.Int32, gas_brand: Swift.Int32, name: Swift.String, geoms: MogosKit.mvt_geoms)
+}
+public struct tollgate_st {
+  public var link_idx: Swift.Int32
+  public var type: MogosKit.tollgate_type
+  public var id: Swift.Int32
+  public var rate: Swift.Int32
+  public var name: Swift.String
+  public var hipass: MogosKit.hipass_st
+  public var geoms: MogosKit.mvt_geoms
+  public mutating func clear()
+}
+public struct direction_sign_st {
+  public var link_idx: Swift.Int32
+  public var datas: Swift.String
+  public mutating func clear()
+}
+public struct cross_image_st {
+  public var link_idx: Swift.Int32
+  public var image_code: Swift.String
+  public var remainder_dist: Swift.Int32
+  public var geoms: MogosKit.mvt_geoms
+  public mutating func clear()
+}
+public struct real_link {
+}
+public struct atbt_st {
+}
+public struct hipass_st {
+  public var image_id: Swift.Int32
+  public var id: Swift.Int32
+  public var total_lane: Swift.Int32
+  public var lane_cnt: Swift.Int32
+  public var lane: Swift.String
+  public mutating func clear()
+}
+public struct rg_one_st {
+  public var version: Swift.Int32
+  public var ui: MogosKit.ui_st
+  public var view_visible: MogosKit.view_visible_st
+  public var tollgate: MogosKit.tollgate_st
+  public var sdi_list: [MogosKit.sdi_st]
+  public var voice_list: [MogosKit.voice_st]
+  public var via_list: [MogosKit.via_st]
+  public var comm: MogosKit.comm_st
+  public var is_last_route: MogosKit.is_last_route_st
+  public mutating func clear()
+}
+public struct ui_st {
+  public var has_route: Swift.Bool
+  public var has_around_via: Swift.Bool
+  public var route_idx: Swift.Int32
+  public var real_link_idx: Swift.Int32
+  public var service_link_idx: Swift.Int32
+  public var atbt_idx: Swift.Int32
+  public var rg_mm_status: Swift.Int32
+  public var local_mm_status: Swift.Int32
+  public var goal_status: Swift.Int32
+  public var service_link_remainder_dist: Swift.Int32
+  public var service_link_remainder_time: Swift.Int32
+  public var total_remainder_dist: Swift.Int32
+  public var total_remainder_time: Swift.Int32
+  public var arrival_rate: Swift.Float
+  public var str_length: Swift.String
+  public var string_info: Swift.String
+  public var bottom_info: Swift.String
+  public var mm_info: MogosKit.mm_st
+  public var geoms: MogosKit.mvt_geoms
+  public mutating func clear()
+}
+public struct mm_st {
+  public var night: Swift.Bool
+  public var fixed: Swift.Bool
+  public var link_id: Swift.Int32
+  public var speed: Swift.Int32
+  public var angle: Swift.Int32
+  public var road_cate: Swift.Int32
+  public var link_cate: Swift.Int32
+  public var link_facil: Swift.Int32
+  public var max_speed: Swift.Int32
+  public var lane_guide: Swift.String
+  public var lane_guide_length: Swift.String
+  public var complexcode: Swift.String
+  public var complex_length: Swift.Int32
+  public var direction_sign_guide: Swift.String
+  public var direction_sign_length: Swift.String
+  public var direction_sign_max_length: Swift.Int32
+  public var autoScaleLevel: Swift.Float
+  public var autoScaleTilt: Swift.Float
+  public mutating func clear()
+}
+public struct via_st {
+  public var remainder_dist: Swift.Int32
+  public var remainder_time: Swift.Int32
+  public var geoms: MogosKit.mvt_geoms
+  public mutating func clear()
+}
+public struct voice_st {
+  public var id: Swift.Int32
+  public var text: Swift.String
+  public var play_complete: Swift.Bool
+  public var geoms: MogosKit.mvt_geoms
+  public mutating func clear()
+}
+public struct sdi_st {
+  public var disp_type: MogosKit.sdi_display_type
+  public var type: MogosKit.sdi_type
+  public var visibility: MogosKit.sdi_visibility_type
+  public var angle: Swift.Int32
+  public var max_speed: Swift.Int32
+  public var dist: Swift.Int32
+  public var section_dist: Swift.Int32
+  public var weight: Swift.Int32
+  public var height: Swift.Int32
+  public var ks_link_id: Swift.UInt32
+  public var geoms: MogosKit.mvt_geoms
+  public mutating func clear()
+}
+public struct view_visible_st {
+  public var first_tbt_visible: Swift.Bool
+  public var second_tbt_visible: Swift.Bool
+  public var sdi_visible: Swift.Bool
+  public var lane_visible: Swift.Bool
+  public var express_link_visible: Swift.Bool
+  public var hipass_visible: Swift.Bool
+  public var geoms: MogosKit.mvt_geoms
+  public mutating func clear()
+}
+public struct is_last_route_st {
+  public var exists: Swift.Bool
+  public var goal_name: Swift.String
+  public mutating func clear()
+}
+public struct comm_st {
+  public var command: MogosKit.rg_command_type
+  public mutating func clear()
+}
+public struct car_option_st {
+  public var car_type: Swift.Int32
+  public var car_fuel: Swift.Int32
+  public var hipass: Swift.Bool
+  public var car_weight: Swift.UInt32
+  public var car_height: Swift.UInt32
+  public var car_length: Swift.UInt32
+  public var uturnlane: Swift.UInt32
+  public var car_feetype: Swift.UInt32
+  public mutating func clear()
+}
+public struct route_option_st {
+  public var search_option: Swift.Int32
+  public var angle: Swift.Int32
+  public var speed: Swift.Int32
+  public var fee_option: Swift.Int32
+  public var simple_mode: Swift.Bool
+  public var special_option: Swift.UInt32
+  public var road_cate: Swift.Int32
+  public var traffic: Swift.Bool
+  public var unixtime: Swift.UInt32
+  public var gmt_offset: Swift.Int32
+  public var pattern: Swift.Bool
+  public var nonstop: Swift.Int32
+  public mutating func clear()
+}
+public struct param_one_st {
+  public var version: Swift.Int32
+  public var rp_info: MogosKit.rp_info_st
+  public mutating func clear()
+}
+public struct rp_info_st {
+  public var source: Swift.Int32
+  public var lang: Swift.Int32
+  public var option: Swift.Int32
+  public var option_ex: Swift.Int32
+  public var layers: Swift.String
+  public var useremail: Swift.String
+  public var type: Swift.Int32
+  public var site: Swift.UInt32
+  public var appversion: Swift.UInt32
+  public var mapversion: Swift.UInt32
+  public var platformtype: Swift.Int32
+  public var servicetype: Swift.Int32
+  public var authcode: Swift.String
+  public var user_authcode: Swift.String
+  public var sitesubcode: Swift.UInt32
+  public var usercode: Swift.UInt32
+  public var devicename: Swift.String
+  public var osversion: Swift.String
+  public var svcprovider: Swift.UInt32
+  public var start_name: Swift.String
+  public var start_floor: Swift.Int32
+  public var start_dir: Swift.Int32
+  public var end_name: Swift.String
+  public var end_rpflag: Swift.String
+  public var end_floor: Swift.Int32
+  public var end_dir: Swift.Int32
+  public var multi_entcount: Swift.UInt32
+  public var multi: Swift.String
+  public var via_name: Swift.String
+  public var via_dir: Swift.String
+  public var via_pass: Swift.String
+  public var via_multi_entcount: Swift.String
+  public var via_multi: Swift.String
+  public var points: Swift.String
+  public var geoms: MogosKit.mvt_geoms
+  public var max_lat: Swift.Double
+  public var max_lng: Swift.Double
+  public var min_lat: Swift.Double
+  public var min_lng: Swift.Double
+  public var car_option: MogosKit.car_option_st
+  public var route_option: MogosKit.route_option_st
+  public mutating func clear()
+}
+@objc @_inheritsConvenienceInitializers public class route_result : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class param_result : ObjectiveC.NSObject {
+  public var testRP: MogosKit.param_one_st
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class rg_result : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class voice_result : ObjectiveC.NSObject {
+  @objc deinit
+  public var list: [MogosKit.voice_one_st]
+}
+public struct voice_one_st {
+  public var version: Swift.Int32
+  public var voice_list: [MogosKit.voice_st]
+  public mutating func clear()
+}
+@objc @_inheritsConvenienceInitializers public class config_result : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MogosKit.mvt_geoms : Swift.Hashable {
+  public static func == (lhs: MogosKit.mvt_geoms, rhs: MogosKit.mvt_geoms) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MogosKit.MBR32D : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: MogosKit.MBR32D, rhs: MogosKit.MBR32D) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MogosKit.VERTEX32D : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: MogosKit.VERTEX32D, rhs: MogosKit.VERTEX32D) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VoiceManager : ObjectiveC.NSObject, Foundation.ObservableObject {
+  @Combine.Published @_projectedValueProperty($mbln_DuckOthers) public var mbln_DuckOthers: Swift.Bool {
+    get
+    set
+    _modify
+  }
+  public var $mbln_DuckOthers: Combine.Published<Swift.Bool>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @Combine.Published @_projectedValueProperty($ttsVolume) public var ttsVolume: Swift.Float {
+    get
+    set
+    _modify
+  }
+  public var $ttsVolume: Combine.Published<Swift.Float>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public var mVoiceResult: MogosKit.voice_result
+  public var isSpeakable: Swift.Bool
+  public var voiceList: [MogosKit.voice_one_st] {
+    get
+  }
+  public static var shared: MogosKit.VoiceManager
+  public func speak(text: Swift.String)
+  public var isSpeaking: Swift.Bool {
+    get
+  }
+  public func pauseSpeakingImmediately()
+  public func pauseSpeakingAfterAWord()
+  public func continueSpeaking()
+  public func stopSpeakingImmediately()
+  public func stopSpeakingAfterAWord()
+  public func setSpeechRate(rate: Swift.Float)
+  public func setLanguage(language: Swift.String)
+  public func setPreUtteranceDelay(delay: Foundation.TimeInterval)
+  public func setPostUtteranceDelay(delay: Foundation.TimeInterval)
+  public func setVolume(volume: Swift.Float)
+  public func printAvailableLanguages()
+  public func printAvailableVoices()
+  public func saveVolume()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+extension MogosKit.VoiceManager : AVFAudio.AVSpeechSynthesizerDelegate {
+  @objc dynamic public func speechSynthesizer(_ synthesizer: AVFAudio.AVSpeechSynthesizer, didStart utterance: AVFAudio.AVSpeechUtterance)
+  @objc dynamic public func speechSynthesizer(_ synthesizer: AVFAudio.AVSpeechSynthesizer, didPause utterance: AVFAudio.AVSpeechUtterance)
+  @objc dynamic public func speechSynthesizer(_ synthesizer: AVFAudio.AVSpeechSynthesizer, didContinue utterance: AVFAudio.AVSpeechUtterance)
+  @objc dynamic public func speechSynthesizer(_ synthesizer: AVFAudio.AVSpeechSynthesizer, didCancel utterance: AVFAudio.AVSpeechUtterance)
+  @objc dynamic public func speechSynthesizer(_ synthesizer: AVFAudio.AVSpeechSynthesizer, willSpeakRangeOfSpeechString characterRange: Foundation.NSRange, utterance: AVFAudio.AVSpeechUtterance)
+  @objc dynamic public func speechSynthesizer(_ synthesizer: AVFAudio.AVSpeechSynthesizer, didFinish utterance: AVFAudio.AVSpeechUtterance)
+}
+extension MogosKit.VoiceManager : CallKit.CXCallObserverDelegate {
+  @objc dynamic public func callObserver(_ callObserver: CallKit.CXCallObserver, callChanged call: CallKit.CXCall)
+}
+extension MogosKit.eSearch_Special : Swift.Equatable {}
+extension MogosKit.eSearch_Special : Swift.Hashable {}
+extension MogosKit.eSearch_Special : Swift.RawRepresentable {}
+extension MogosKit.mvt_operation : Swift.Equatable {}
+extension MogosKit.mvt_operation : Swift.Hashable {}
+extension MogosKit.mvt_operation : Swift.RawRepresentable {}
+extension MogosKit.mvt_coordinate : Swift.Equatable {}
+extension MogosKit.mvt_coordinate : Swift.Hashable {}
+extension MogosKit.mvt_coordinate : Swift.RawRepresentable {}
+extension MogosKit.site_type : Swift.Equatable {}
+extension MogosKit.site_type : Swift.Hashable {}
+extension MogosKit.site_type : Swift.RawRepresentable {}
+extension MogosKit.express_link_type : Swift.Equatable {}
+extension MogosKit.express_link_type : Swift.Hashable {}
+extension MogosKit.express_link_type : Swift.RawRepresentable {}
+extension MogosKit.request_type : Swift.Equatable {}
+extension MogosKit.request_type : Swift.Hashable {}
+extension MogosKit.request_type : Swift.RawRepresentable {}
+extension MogosKit.rg_command_type : Swift.Equatable {}
+extension MogosKit.rg_command_type : Swift.Hashable {}
+extension MogosKit.rg_command_type : Swift.RawRepresentable {}
+extension MogosKit.tollgate_type : Swift.Equatable {}
+extension MogosKit.tollgate_type : Swift.Hashable {}
+extension MogosKit.tollgate_type : Swift.RawRepresentable {}
+extension MogosKit.service_area_type : Swift.Equatable {}
+extension MogosKit.service_area_type : Swift.Hashable {}
+extension MogosKit.service_area_type : Swift.RawRepresentable {}
+extension MogosKit.sdi_display_type : Swift.Equatable {}
+extension MogosKit.sdi_display_type : Swift.Hashable {}
+extension MogosKit.sdi_display_type : Swift.RawRepresentable {}
+extension MogosKit.sdi_visibility_type : Swift.Equatable {}
+extension MogosKit.sdi_visibility_type : Swift.Hashable {}
+extension MogosKit.sdi_visibility_type : Swift.RawRepresentable {}
+extension MogosKit.sdi_type : Swift.Equatable {}
+extension MogosKit.sdi_type : Swift.Hashable {}
+extension MogosKit.sdi_type : Swift.RawRepresentable {}
+extension MogosKit.TURN_TYPE : Swift.Equatable {}
+extension MogosKit.TURN_TYPE : Swift.Hashable {}
+extension MogosKit.TURN_TYPE : Swift.RawRepresentable {}

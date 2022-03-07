@@ -1,0 +1,13 @@
+module Fatos {
+    header "../ios-arm64/Headers/FatosNaviBridge.h"
+    header "../ios-arm64/Headers/FatosMapViewBridge.h"
+    header "../ios-arm64/Headers/FatosEnvBridge.h"
+    header "../ios-arm64/Headers/FatosDevelopBridge.h"
+
+    header "../ios-arm64/Headers/FatosInterface.h"
+
+    header "../ios-arm64/Headers/FatosMapUtil.h"
+    header "../ios-arm64/Headers/FatosMapView.h"
+
+    export *
+}
