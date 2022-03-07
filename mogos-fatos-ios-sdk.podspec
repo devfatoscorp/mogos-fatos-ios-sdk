@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'mogos-fatos-ios-sdk'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'FATOS Mogos SDK for internal distribution via gitlab.'
   s.deprecated_in_favor_of = 'MogosKit'
 
@@ -27,9 +27,7 @@ Pod::Spec.new do |s|
   }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   #s.preserve_paths = ["MogosKit.framework"]
-  s.vendored_frameworks = ['MogosKit.framework']
+  s.vendored_frameworks = ['MogosKit.framework', 'SwiftProtobuf', 'SwiftyJSON']
   s.dependency 'Fatos'
-  s.dependency 'SwiftProtobuf'
-  s.dependency 'SwiftyJSON'
 
 end
