@@ -211,6 +211,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
 SWIFT_CLASS("_TtC8MogosKit12VoiceManager")
 @interface VoiceManager : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -245,7 +246,8 @@ SWIFT_CLASS("_TtC8MogosKit13config_result")
 
 SWIFT_CLASS("_TtC8MogosKit12param_result")
 @interface param_result : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -269,7 +271,8 @@ SWIFT_CLASS("_TtC8MogosKit13search_result")
 
 SWIFT_CLASS("_TtC8MogosKit12voice_result")
 @interface voice_result : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #if __has_attribute(external_source_symbol)
