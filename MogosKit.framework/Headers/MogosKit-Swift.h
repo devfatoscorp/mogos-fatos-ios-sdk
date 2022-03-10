@@ -190,7 +190,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import AVFAudio;
 @import CallKit;
-@import Fatos;
 @import Foundation;
 @import ObjectiveC;
 #endif
@@ -210,11 +209,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@class NSString;
-
-@interface FatosInterface (SWIFT_EXTENSION(MogosKit))
-- (void)Voice_SpeakWithText:(NSString * _Nonnull)text;
-@end
 
 
 

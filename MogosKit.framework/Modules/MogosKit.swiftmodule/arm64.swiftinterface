@@ -10,8 +10,8 @@ import SwiftProtobuf
 import SwiftUI
 import SwiftyJSON
 import _Concurrency
-@objc extension Fatos.FatosInterface {
-  @objc dynamic public func Voice_Speak(text: Swift.String)
+extension Fatos.FatosInterface {
+  public func Voice_Speak(text: Swift.String)
 }
 public func getDocumentsDirectory() -> Foundation.URL?
 public func mglLogDebug(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
