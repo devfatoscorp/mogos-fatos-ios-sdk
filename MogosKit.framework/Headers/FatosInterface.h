@@ -78,7 +78,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //MARK: - Navi Function BEGIN
 - (void) Navi_RegisterNaviDelegate:(id<FatosNaviModuleDelegate>_Nonnull) delegate;
-- (void) Navi_InitializeNaviModule;
+- (void) Navi_InitializeNaviModule:(double)lon :(double)lat :(int)angle;
 - (void) Navi_DestroyNaviModule;
 - (void) Navi_ReRoute;
 - (void) Navi_Route;

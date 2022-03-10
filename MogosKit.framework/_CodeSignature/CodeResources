@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/FatosInterface.h</key>
 		<data>
-		ELaWD4WlV8TTJPMlxGqaWTqZQLw=
+		+ma8RU34IqWp9mEnnizOy1Y1/W8=
 		</data>
 		<key>Headers/FatosMapUtil.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/FatosNaviModule.h</key>
 		<data>
-		IJn7WXR8GOB0VBs18is3n8JInXY=
+		UWjtG7Q3aTWbhgUnIEDyDV1JT6Y=
 		</data>
 		<key>Headers/GPSService.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/MogosKit-Swift.h</key>
 		<data>
-		RSlULSItTxV/NEOJGj6Yyx2VIes=
+		n3LTG/0QL8wG9cFaYRmoU7sq8FE=
 		</data>
 		<key>Headers/MogosKit.h</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		oVQyZKgkoiyqR7BuihtHWIqdL5E=
+		gfvzJK/ojacedahK3gwVYheL2ys=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		AYG3ATWJdvw7tTcEKbkmEqyiKYE=
+		+EOIHxYxIK6qnj5tdbh9Mb5WWQA=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		oVQyZKgkoiyqR7BuihtHWIqdL5E=
+		gfvzJK/ojacedahK3gwVYheL2ys=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		AYG3ATWJdvw7tTcEKbkmEqyiKYE=
+		+EOIHxYxIK6qnj5tdbh9Mb5WWQA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,11 +109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ELaWD4WlV8TTJPMlxGqaWTqZQLw=
+			+ma8RU34IqWp9mEnnizOy1Y1/W8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ss2xf3OhutFry5OJNMzWSEtHxL4igmRlxRxyzgk1DWQ=
+			jllGCqcSbq5QMowE0LTLzHIZ6GX85Dr43Fb1vrZVTiQ=
 			</data>
 		</dict>
 		<key>Headers/FatosMapUtil.h</key>
@@ -164,11 +164,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IJn7WXR8GOB0VBs18is3n8JInXY=
+			UWjtG7Q3aTWbhgUnIEDyDV1JT6Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			EQY4/UkWwSN1RZlmf3K0hxiW02JkTZArUh9DxvSUk2A=
+			af7v8woMAK3g0s5NH82Tsqm06Q+3NVT/gyFAmPM8w1g=
 			</data>
 		</dict>
 		<key>Headers/GPSService.h</key>
@@ -186,11 +186,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RSlULSItTxV/NEOJGj6Yyx2VIes=
+			n3LTG/0QL8wG9cFaYRmoU7sq8FE=
 			</data>
 			<key>hash2</key>
 			<data>
-			GKkwxrPWqEBBXGGPQJ5EcCdzxG2kUIgHUScqIhqUrTk=
+			nwi16V6vEaDpb13lCq88cbXisI6+1bCBb4g4KB4RZKo=
 			</data>
 		</dict>
 		<key>Headers/MogosKit.h</key>
@@ -219,22 +219,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oVQyZKgkoiyqR7BuihtHWIqdL5E=
+			gfvzJK/ojacedahK3gwVYheL2ys=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ncd2h8ht91/K+e58rgeRkxldXl7QpnWCGYIPDJF3YJ0=
+			GDJ2aeHJZPHPomiX6VMdiJy2uXz+H0St4J43/leOnrE=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AYG3ATWJdvw7tTcEKbkmEqyiKYE=
+			+EOIHxYxIK6qnj5tdbh9Mb5WWQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			SzzE/esDwpP7BaozJ/KLAwh5qKpo/E1QPj7SsFWPqEo=
+			t8PFI2vo7lEOCjmJ3BhtiFEJn2/lkiIt0U1UB+KFmbo=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftdoc</key>
@@ -252,22 +252,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oVQyZKgkoiyqR7BuihtHWIqdL5E=
+			gfvzJK/ojacedahK3gwVYheL2ys=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ncd2h8ht91/K+e58rgeRkxldXl7QpnWCGYIPDJF3YJ0=
+			GDJ2aeHJZPHPomiX6VMdiJy2uXz+H0St4J43/leOnrE=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AYG3ATWJdvw7tTcEKbkmEqyiKYE=
+			+EOIHxYxIK6qnj5tdbh9Mb5WWQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			SzzE/esDwpP7BaozJ/KLAwh5qKpo/E1QPj7SsFWPqEo=
+			t8PFI2vo7lEOCjmJ3BhtiFEJn2/lkiIt0U1UB+KFmbo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

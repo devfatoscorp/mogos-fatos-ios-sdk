@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
   bool mbln_MapMoveCurrentEvent;
 }
 - (id)initNaviModule:(NSString *)sdkKey;
-- (void) initFatosNaviEngine;
+- (void) initFatosNaviEngine:(double)lon :(double)lat :(int)angle;
 
 - (void) onUpdateRG:(NSData *)rgMvt;
 - (void) OnRouteResult:(int)itype ierr:(int)ierr pCtx:(void*)pCtx isLocal:(BOOL)isLocal;
@@ -39,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL) InitServiceURL;
 - (BOOL) InitResource;
 
-- (BOOL) InitNavi;
+- (BOOL) InitNavi:(double)lon :(double)lat :(int)angle;
 - (void) ReleaseNavi;
 
 - (void) routeExternal:(NSDictionary *)jsonDic strFeeOption:(NSString *)strFeeOption bRequest:(BOOL)bRequest;
