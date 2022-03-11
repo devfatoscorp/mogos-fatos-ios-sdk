@@ -190,6 +190,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import AVFAudio;
 @import CallKit;
+@import CoreLocation;
+@import Fatos;
 @import Foundation;
 @import ObjectiveC;
 #endif
@@ -208,6 +210,26 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="MogosKit",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+@class NSData;
+@class NSNumber;
+@class NSString;
+
+SWIFT_CLASS("_TtC8MogosKit14FatosInterface")
+@interface FatosInterface : NSObject <FatosNaviModuleDelegate, GPSServiceDelegate>
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)onUpdateRG:(NSData * _Nonnull)rgMvt;
+- (void)onRouteStart:(int32_t)nType ierror:(int32_t)ierror;
+- (void)onRouteResult:(int32_t)nType ierror:(int32_t)ierror;
+- (void)onRouteResultMvt:(NSData * _Nonnull)resMvt;
+- (void)onRouteCancel;
+- (void)onRouteComplete;
+- (void)onRouteViaComplete:(NSString * _Nonnull)viaJson;
+- (void)onMapAuto;
+- (void)onInitializeStatus:(int32_t)status value:(NSString * _Nonnull)value;
+- (void)didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+@end
 
 
 

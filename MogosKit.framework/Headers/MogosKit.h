@@ -15,7 +15,7 @@ FOUNDATION_EXPORT double MogosKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char MogosKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MogosKit/PublicHeader.h>
-#import <MogosKit/FatosInterface.h>
+//#import <MogosKit/FatosInterface.h>
 #import <MogosKit/FatosNaviBridge.h>
 #import <MogosKit/FatosEnvBridge.h>
 #import <MogosKit/FatosDevelopBridge.h>
