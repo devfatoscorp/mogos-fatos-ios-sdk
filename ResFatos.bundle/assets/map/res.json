@@ -17,5 +17,6 @@
   {"Name":"MiniTBT", "Major":1, "Minor":0},
   {"Name":"Building", "Major":0, "Minor":2},
   {"Name":"Alternative", "Major":1, "Minor":3},
-  {"Name":"MapRes", "Major":1, "Minor":1}
+  {"Name":"MapRes", "Major":1, "Minor":1},
+  {"Name":"Routeline", "Major":1, "Minor":0}
 ]
