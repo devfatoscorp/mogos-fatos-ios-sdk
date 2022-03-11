@@ -191,10 +191,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVFAudio;
 @import CallKit;
 @import CoreLocation;
-@import Fatos;
 @import Foundation;
 @import ObjectiveC;
 #endif
+
+#import <MogosKit/MogosKit.h>
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"

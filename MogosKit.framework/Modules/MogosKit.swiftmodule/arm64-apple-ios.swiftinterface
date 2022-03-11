@@ -815,7 +815,7 @@ public enum eSearch_Special : Swift.Int {
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc open class FatosInterface : ObjectiveC.NSObject, Fatos.FatosNaviModuleDelegate, Fatos.GPSServiceDelegate {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class FatosInterface : ObjectiveC.NSObject, MogosKit.FatosNaviModuleDelegate, MogosKit.GPSServiceDelegate {
   @objc deinit
   public static var shared: MogosKit.FatosInterface
   open func Map_MapRefresh()
@@ -874,7 +874,7 @@ public enum eSearch_Special : Swift.Int {
   open func Map_GetViewTilt() -> Swift.Float
   open func Map_OnStartGoalSet(startName: Swift.String, startX: Swift.Double, startY: Swift.Double, goalName: Swift.String, goalX: Swift.Double, goalY: Swift.Double)
   open func Map_SetFlag(_ viewObj: Swift.Int, _ posX: Swift.Double, _ posY: Swift.Double, _ viaIdx: Swift.Int)
-  open func Navi_RegisterNaviDelegate(_ delegate: Fatos.FatosNaviModuleDelegate)
+  open func Navi_RegisterNaviDelegate(_ delegate: MogosKit.FatosNaviModuleDelegate)
   @discardableResult
   open func Navi_InitializeNaviModule(_ lon: Swift.Double, _ lat: Swift.Double, _ angle: Swift.Int = 0) -> Swift.Bool
   @discardableResult
