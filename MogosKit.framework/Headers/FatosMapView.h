@@ -44,6 +44,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (float) getMapLevel;
 - (void) setMapAuto:(double)fLonX fLatY:(double)fLatY;
 - (void) setMapAuto:(double)fLonX fLatY:(double)fLatY withAnimation:(bool)withAnimation;
+- (void) setMapAuto:(double)fLonX fLatY:(double)fLatY nViewMode:(int)nViewMode
+           fScreenX:(float)fScreenX fScreenY:(float)fScreenY fLevel:(float)fLevel
+              fTilt:(float)fTilt bAni:(bool)bAni;
 - (void) setMapAutoOnAutoScale:(double)fLonX fLatY:(double)fLatY tilt:(float)tilt level:(float)level withAnimation:(bool)withAnimation;
 - (void) setMapMove:(double)fLonX fLatY:(double)fLatY;
 - (int) GetViewMode;

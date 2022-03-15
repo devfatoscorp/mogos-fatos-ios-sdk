@@ -18,11 +18,11 @@
 		</data>
 		<key>Headers/FatosMapView.h</key>
 		<data>
-		rHDyDQhf7+nF3uCuOL8bU2bfQ/M=
+		kEyNkt/R08SbucW7aKC9g+dtkQ0=
 		</data>
 		<key>Headers/FatosMapViewBridge.h</key>
 		<data>
-		NSx1xd6hzIQHlWhnbszfbQ+mviY=
+		8COs6MY7LCmWu8+futFeBkoT1Ao=
 		</data>
 		<key>Headers/FatosNaviBridge.h</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		wP+32mtP4+syQlb/56+2MjnJi+k=
+		30ud7lQDp9OYeY3OE5ihLhgnueM=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		DR0kN8WYuh+oPkevewWAqf+k+O4=
+		Z+qrX3F4as7JCXRszzQNcJPV2dw=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		wP+32mtP4+syQlb/56+2MjnJi+k=
+		30ud7lQDp9OYeY3OE5ihLhgnueM=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		DR0kN8WYuh+oPkevewWAqf+k+O4=
+		Z+qrX3F4as7JCXRszzQNcJPV2dw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -6478,7 +6478,7 @@
 		</data>
 		<key>ResFatos.bundle/assets/map/res.json</key>
 		<data>
-		WXuZ4rr8XSg2EimUMH4h5v3A+HI=
+		2MbkiPQ26UWhA0FPlvAwi0fo9Z0=
 		</data>
 		<key>ResFatos.bundle/assets/map/road_way.json</key>
 		<data>
@@ -6514,11 +6514,11 @@
 		</data>
 		<key>ResFatos.bundle/assets/map/symbolday.json</key>
 		<data>
-		/3vnRJ6P6mPKevyIMLpynO/21zU=
+		OZpskQkmRjUZpt3RJXVV2Jnt8w0=
 		</data>
 		<key>ResFatos.bundle/assets/map/symbolday.png</key>
 		<data>
-		YphLbeNZPkCZ5oSNvSy0pVAB6y8=
+		f+2tXnMRJ3DP7fflIFTt1t3+Tvs=
 		</data>
 		<key>ResFatos.bundle/assets/map/symbolhd.json</key>
 		<data>
@@ -6530,11 +6530,11 @@
 		</data>
 		<key>ResFatos.bundle/assets/map/symbolnight.json</key>
 		<data>
-		HsFbjcnGniERLEf2edAgGI7dWlc=
+		0RjWzJab9hZHkveyh98hVHOY2BA=
 		</data>
 		<key>ResFatos.bundle/assets/map/symbolnight.png</key>
 		<data>
-		rnpTDqK1WOg7QZRjyM9wGydsbk0=
+		YsBT/kmUZMLHUBFvT7fvltKJ9TA=
 		</data>
 		<key>ResFatos.bundle/assets/values/en.lproj/Localizable.strings</key>
 		<dict>
@@ -6621,22 +6621,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rHDyDQhf7+nF3uCuOL8bU2bfQ/M=
+			kEyNkt/R08SbucW7aKC9g+dtkQ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			OYz81MBVMW6DGbif7i3aPyzFCRTUiWUBU07yAxjd6Q0=
+			2VIyxdZiSeBEK+5WgK9OHmHiQfyK4Yiq545XOFQT8Uw=
 			</data>
 		</dict>
 		<key>Headers/FatosMapViewBridge.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NSx1xd6hzIQHlWhnbszfbQ+mviY=
+			8COs6MY7LCmWu8+futFeBkoT1Ao=
 			</data>
 			<key>hash2</key>
 			<data>
-			o7hsYNH/us6GXRxOKtUvIrQH0r1HMxRObtoTNohEfg4=
+			aCCwLMBvb0wnhBAzOrDija+4DVZF8mtOTV7Hv8iasYM=
 			</data>
 		</dict>
 		<key>Headers/FatosNaviBridge.h</key>
@@ -6709,22 +6709,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wP+32mtP4+syQlb/56+2MjnJi+k=
+			30ud7lQDp9OYeY3OE5ihLhgnueM=
 			</data>
 			<key>hash2</key>
 			<data>
-			NiQCPm+x/8YEScjTex/DOOqIQ6lOdq/z9Xe97TALQ+I=
+			8KTfiD49sNu4QIaOOvLRyPPEo/ZichFD0rO8lGm3kiM=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DR0kN8WYuh+oPkevewWAqf+k+O4=
+			Z+qrX3F4as7JCXRszzQNcJPV2dw=
 			</data>
 			<key>hash2</key>
 			<data>
-			GsshkoC6j3F07IdNCZmGzBuJ7kyy6T+Lb+K8midMFyw=
+			m0ipYRk4Xea/2sWHpU7MEQuTyI+heBj8uj1fcdNIkLI=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftdoc</key>
@@ -6742,22 +6742,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wP+32mtP4+syQlb/56+2MjnJi+k=
+			30ud7lQDp9OYeY3OE5ihLhgnueM=
 			</data>
 			<key>hash2</key>
 			<data>
-			NiQCPm+x/8YEScjTex/DOOqIQ6lOdq/z9Xe97TALQ+I=
+			8KTfiD49sNu4QIaOOvLRyPPEo/ZichFD0rO8lGm3kiM=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DR0kN8WYuh+oPkevewWAqf+k+O4=
+			Z+qrX3F4as7JCXRszzQNcJPV2dw=
 			</data>
 			<key>hash2</key>
 			<data>
-			GsshkoC6j3F07IdNCZmGzBuJ7kyy6T+Lb+K8midMFyw=
+			m0ipYRk4Xea/2sWHpU7MEQuTyI+heBj8uj1fcdNIkLI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -24375,11 +24375,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WXuZ4rr8XSg2EimUMH4h5v3A+HI=
+			2MbkiPQ26UWhA0FPlvAwi0fo9Z0=
 			</data>
 			<key>hash2</key>
 			<data>
-			bRQ1lUWa+CwDq13+PPqbrYVIPWowtXxkl9xvPX+pevY=
+			k2MrPgN456kqdvlvvtlbOyNc61btNGZE4TqNAqCe6yE=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/assets/map/road_way.json</key>
@@ -24474,22 +24474,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/3vnRJ6P6mPKevyIMLpynO/21zU=
+			OZpskQkmRjUZpt3RJXVV2Jnt8w0=
 			</data>
 			<key>hash2</key>
 			<data>
-			aOghhxgnI3v/zcYLmxQzGMrQn/6NopD0eWUYk/+iaSE=
+			jaht4Z8/fJ/MpDCvKkql06DvUkkkF3OvpSgqsk62D1M=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/assets/map/symbolday.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YphLbeNZPkCZ5oSNvSy0pVAB6y8=
+			f+2tXnMRJ3DP7fflIFTt1t3+Tvs=
 			</data>
 			<key>hash2</key>
 			<data>
-			H8x775SUNQpadq2Lvwi33QJQHygeWPUvE/6nhXv8DXY=
+			NsnppVzrpPU7VUG0NeI4orgafrzdDPzTCrUthov/l6U=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/assets/map/symbolhd.json</key>
@@ -24518,22 +24518,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HsFbjcnGniERLEf2edAgGI7dWlc=
+			0RjWzJab9hZHkveyh98hVHOY2BA=
 			</data>
 			<key>hash2</key>
 			<data>
-			fRg2LiJ3n0NSgjrTwQoIBGQC20OtjFGDiu29t/k98jI=
+			MPg78CUebJV97uCTxKkAISPGtbwmJK/aCTpfCZA3fME=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/assets/map/symbolnight.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rnpTDqK1WOg7QZRjyM9wGydsbk0=
+			YsBT/kmUZMLHUBFvT7fvltKJ9TA=
 			</data>
 			<key>hash2</key>
 			<data>
-			KELGZt/7fwuRvSRFzUPb0TFg6l4bbNyRX1uiBzlwFyM=
+			qZMYwFsDHJ2bcBq2hUy7+/UYAph6qBKyHmvJbYAievI=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/assets/values/en.lproj/Localizable.strings</key>

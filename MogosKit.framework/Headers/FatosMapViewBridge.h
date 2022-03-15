@@ -27,6 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (void) setMapLevel:(float)fLevel type:(nonnull NSNumber *)type;
 + (void) MapAuto;
 + (void) MapAuto:(bool)withAnimation;
++ (void) MapAuto:(int)nViewMode
+        fScreenX:(float)fScreenX fScreenY:(float)fScreenY fLevel:(float)fLevel
+           fTilt:(float)fTilt bAni:(bool)bAni;
 + (void) MapAutoOnAutoScale:(float)tilt level:(float)level;
 + (void) MapAutoScale:(float)tilt level:(float)level;
 + (void) MapMove;
