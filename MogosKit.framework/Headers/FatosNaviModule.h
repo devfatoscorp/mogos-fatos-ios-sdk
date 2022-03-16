@@ -84,6 +84,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) RevertRoute;
 + (void) SetStartFlagYX:(double)y x:(double)x;
 + (void) SetGoalYX:(double)y strX:(double)x;
+- (void) SetDeviceScreenInfo:(double)dScreenX dScreenY:(double)dScreenY dRealScreenX:(double)dRealScreenX dRealScreenY:(double) dRealScreenY;
 
 - (BOOL) IsRoute;
 - (void) SetSendTrackerData:(bool)val;
