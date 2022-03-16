@@ -950,6 +950,7 @@ public enum eSearch_Special : Swift.Int {
   open func Env_GetAutoCurrentPos() -> Swift.String
   open func Voice_Stop()
   open func Voice_Speak(_ text: Swift.String)
+  open func Voice_SpeakParams(_ text: Swift.String, _ id: Swift.Int, _ play_complete: Swift.Bool)
   open func Voice_SetSpeechRate(_ fRate: Swift.Float)
   open func Voice_IsSpeaking() -> Swift.Bool
   @objc public func onUpdateRG(_ rgMvt: Foundation.Data)
@@ -991,6 +992,7 @@ public enum eSearch_Special : Swift.Int {
   }
   public static var shared: MogosKit.VoiceManager
   public func speak(text: Swift.String)
+  public func speak(text: Swift.String, id: Swift.Int, play_complete: Swift.Bool)
   public var isSpeaking: Swift.Bool {
     get
   }
