@@ -831,6 +831,7 @@ public enum eSearch_Special : Swift.Int {
   open func Map_MapLevelOut(_ bAni: Swift.Bool)
   open func Map_SetMapLevel(_ fLevel: Swift.Float, _ bAni: Swift.Bool)
   open func Map_MapAuto(_ viewMode: Swift.Int, _ screenX: Swift.Double, _ screenY: Swift.Double, _ level: Swift.Double, _ tilt: Swift.Double, _ bAni: Swift.Bool)
+  open func Map_SetMapScene(_ viewMode: Swift.Int, _ posX: Swift.Double, _ posY: Swift.Double, _ screenX: Swift.Double, _ screenY: Swift.Double, _ level: Swift.Double, _ tilt: Swift.Double, _ bAni: Swift.Bool, _ bAutoState: Swift.Bool)
   open func Map_MapAuto(_ bAni: Swift.Bool)
   open func Map_MapAutoOnAutoScale(_ fTilt: Swift.Float, _ fLevel: Swift.Float)
   open func Map_MapAutoScale(_ fTilt: Swift.Float, _ fLevel: Swift.Float)
@@ -904,7 +905,7 @@ public enum eSearch_Special : Swift.Int {
   open func Navi_GetGeoCodeString(dLon: Swift.Double, dLat: Swift.Double) -> Swift.String
   open func Navi_GetGeoCodeStringByTile(dLon: Swift.Double, dLat: Swift.Double) -> Swift.String
   open func Navi_GetMvt(_ data: Foundation.Data, _ type: Swift.Int32)
-  open func Navi_GetComplexCrossImage(_ nImgId: Swift.Int32, bNight: Swift.Bool)
+  open func Navi_GetComplexCrossImage(_ nImgId: Swift.Int32, bNight: Swift.Bool) -> Foundation.Data
   open func Navi_SetMvt(_ data: Foundation.Data, _ type: Swift.Int32, _ hashKey: Swift.UInt64 = 0)
   open func Navi_RevertRoute()
   open func Navi_SetDeviceScreenInfo(_ dScreenX: Swift.Double, _ dScreenY: Swift.Double, _ dRealScreenX: Swift.Double, _ dRealScreenY: Swift.Double)
