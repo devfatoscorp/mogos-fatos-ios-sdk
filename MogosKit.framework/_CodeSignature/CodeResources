@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		tc1ML2fUr0y0hMM275Bs04rHmnE=
+		pgP0I7qgxyrFFOyp9SlLwFvWyCM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -6708,11 +6708,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tc1ML2fUr0y0hMM275Bs04rHmnE=
+			pgP0I7qgxyrFFOyp9SlLwFvWyCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			9MDIs3NOO8vLnXXD/9vcNn9pofOLMWufIafHuTInYxA=
+			7B0YaW5A2WIPznhOKNK2bwqYxntPBG8AMIXW0/toigA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
