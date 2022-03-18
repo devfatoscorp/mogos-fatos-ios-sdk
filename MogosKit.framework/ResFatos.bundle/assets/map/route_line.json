@@ -61,7 +61,9 @@
       }
     }
   },
-  "option": {
-    "alt_outer_option_color": true
+  "linewidth": {
+    "line" : 1.6,
+    "outline" : 0.8,
+    "noneselected" : 1.0
   }
 }
