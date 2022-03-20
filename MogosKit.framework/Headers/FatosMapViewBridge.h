@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void) MapAuto:(bool)withAnimation;
 + (void) MapAuto:(int)nViewMode
         fScreenX:(float)fScreenX fScreenY:(float)fScreenY fLevel:(float)fLevel
-           fTilt:(float)fTilt bAni:(bool)bAni;
+           fTilt:(float)fTilt bAni:(bool)bAni bAutoState:(bool)bAutoState;
 + (void) SetMapScene:(int)nViewMode posX:(double)posX posY:(double)posY
             fScreenX:(float)fScreenX fScreenY:(float)fScreenY fLevel:(float)fLevel
                fTilt:(float)fTilt bAni:(bool)bAni bAutoState:(bool)bAutoState;

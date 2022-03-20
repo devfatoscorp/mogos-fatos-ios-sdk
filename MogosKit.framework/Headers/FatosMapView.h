@@ -42,6 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) setMapLevelOut:(int)nType;
 - (void) setMapLevel:(float)fLevel nType:(int)nType;
 - (float) getMapLevel;
+- (void) resetAnimation;
 - (void) setMapAuto:(double)fLonX fLatY:(double)fLatY;
 - (void) setMapAuto:(double)fLonX fLatY:(double)fLatY withAnimation:(bool)withAnimation;
 - (void) setMapAuto:(double)fLonX fLatY:(double)fLatY nViewMode:(int)nViewMode
