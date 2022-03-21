@@ -878,7 +878,7 @@ public enum eSearch_Special : Swift.Int {
   open func Map_SetFlag(_ viewObj: Swift.Int, _ posX: Swift.Double, _ posY: Swift.Double, _ viaIdx: Swift.Int)
   open func Navi_RegisterNaviDelegate(_ delegate: MogosKit.FatosNaviModuleDelegate)
   @discardableResult
-  open func Navi_InitializeNaviModule(_ lon: Swift.Double, _ lat: Swift.Double, _ angle: Swift.Int = 0) -> Swift.Bool
+  open func Navi_InitializeNaviModule(_ lon: Swift.Double, _ lat: Swift.Double, _ angle: Swift.Int = 0) -> Swift.Int
   @discardableResult
   open func Navi_DestroyNaviModule() -> Swift.Bool
   open func Navi_ReRoute()

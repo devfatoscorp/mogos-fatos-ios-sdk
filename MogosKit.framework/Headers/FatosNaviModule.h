@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
   bool mbln_MapMoveCurrentEvent;
 }
 - (id)initNaviModule:(NSString *)sdkKey;
-- (void) initFatosNaviEngine:(double)lon :(double)lat :(int)angle;
+- (int) initFatosNaviEngine:(double)lon :(double)lat :(int)angle;
 
 - (void) onUpdateRG:(NSData *)rgMvt;
 - (void) OnRouteResult:(int)itype ierr:(int)ierr pCtx:(void*)pCtx isLocal:(BOOL)isLocal;
