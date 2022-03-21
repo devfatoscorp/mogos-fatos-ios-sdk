@@ -14,6 +14,7 @@
   {"Name":"SymbolNight","Major":1, "Minor":38},
   {"Name":"FireFighting","Major":1, "Minor":3},
   {"Name":"RoadSymbol","Major":1, "Minor":20},
+  {"Name":"RoadWay", "Major":0, "Minor":8},
   {"Name":"MiniTBT", "Major":1, "Minor":0},
   {"Name":"Building", "Major":0, "Minor":2},
   {"Name":"Alternative", "Major":1, "Minor":3},
