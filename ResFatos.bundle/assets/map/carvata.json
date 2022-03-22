@@ -89,7 +89,7 @@
 	"sourceSize": {"w":112,"h":112}
 },
 {
-	"filename": "map_point_nor.png",
+	"filename": "map_point_here_dis.png",
 	"frame": {"x":572,"y":116,"w":112,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -97,24 +97,24 @@
 	"sourceSize": {"w":112,"h":112}
 },
 {
-	"filename": "map_point_here_dis.png",
-	"frame": {"x":2,"y":230,"w":126,"h":126},
+	"filename": "map_point_here_nor.png",
+	"frame": {"x":2,"y":230,"w":112,"h":112},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":126,"h":126},
-	"sourceSize": {"w":126,"h":126}
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":112}
 },
 {
-	"filename": "map_point_here_nor.png",
-	"frame": {"x":130,"y":230,"w":126,"h":126},
+	"filename": "map_point_nor.png",
+	"frame": {"x":116,"y":230,"w":112,"h":112},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":126,"h":126},
-	"sourceSize": {"w":126,"h":126}
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":112}
 },
 {
 	"filename": "carvatar_05_dis.png",
-	"frame": {"x":258,"y":230,"w":176,"h":176},
+	"frame": {"x":230,"y":230,"w":176,"h":176},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":176},
@@ -122,7 +122,7 @@
 },
 {
 	"filename": "carvatar_05_nor.png",
-	"frame": {"x":436,"y":230,"w":176,"h":176},
+	"frame": {"x":408,"y":230,"w":176,"h":176},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":176},
@@ -130,7 +130,7 @@
 },
 {
 	"filename": "map_point_direction_dis.png",
-	"frame": {"x":2,"y":408,"w":176,"h":176},
+	"frame": {"x":586,"y":230,"w":176,"h":176},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":176},
@@ -138,7 +138,7 @@
 },
 {
 	"filename": "map_point_direction_nor.png",
-	"frame": {"x":180,"y":408,"w":176,"h":176},
+	"frame": {"x":2,"y":408,"w":176,"h":176},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":176},
@@ -146,7 +146,7 @@
 },
 {
 	"filename": "carvatar_01_nor_gps.png",
-	"frame": {"x":358,"y":408,"w":184,"h":184},
+	"frame": {"x":180,"y":408,"w":184,"h":184},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":184,"h":184},
@@ -154,7 +154,7 @@
 },
 {
 	"filename": "map_point_gps_01.png",
-	"frame": {"x":544,"y":408,"w":184,"h":184},
+	"frame": {"x":366,"y":408,"w":184,"h":184},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":184,"h":184},
@@ -162,7 +162,7 @@
 },
 {
 	"filename": "map_point_gps_02.png",
-	"frame": {"x":2,"y":594,"w":184,"h":184},
+	"frame": {"x":552,"y":408,"w":184,"h":184},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":184,"h":184},
@@ -173,8 +173,8 @@
 	"version": "1.0",
 	"image": "carvatar.png",
 	"format": "RGBA8888",
-	"size": {"w":780,"h":780},
+	"size": {"w":764,"h":764},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:4f0064128d2322a862da3fb5832e34ad:1043a4c064f5e54cac51e674588967a6:b25b84dd804ed0e420cfcd4a75cd67c4$"
+	"smartupdate": "$TexturePacker:SmartUpdate:d1a1cb581a3585a52d66e0a1328a4fd6:9e5a5d6743dd256ba7b491efe5c65c53:b25b84dd804ed0e420cfcd4a75cd67c4$"
 }
 }
