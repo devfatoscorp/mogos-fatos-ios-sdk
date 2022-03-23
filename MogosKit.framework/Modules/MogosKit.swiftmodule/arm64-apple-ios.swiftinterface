@@ -928,6 +928,7 @@ public enum eSearch_Special : Swift.Int {
   open func Env_SetDem(_ bValue: Swift.Bool)
   open func Env_SetAutoCurrentPos(_ bValue: Swift.Bool)
   open func Env_SetWalkMode(_ bValue: Swift.Bool)
+  open func Env_SetGasPoiBaseLyaer(_ bValue: Swift.Bool)
   open func Env_GetPathLineColor() -> Swift.String
   open func Env_GetLanguage() -> Swift.String
   open func Env_GetNavigationOptions() -> Swift.String
