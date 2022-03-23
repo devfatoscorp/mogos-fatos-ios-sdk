@@ -39,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL) InitServiceURL;
 - (BOOL) InitResource;
 
-- (BOOL) InitNavi:(double)lon :(double)lat :(int)angle;
+- (int) InitNavi:(double)lon :(double)lat :(int)angle;
 - (void) ReleaseNavi;
 
 - (void) routeExternal:(NSDictionary *)jsonDic strFeeOption:(NSString *)strFeeOption bRequest:(BOOL)bRequest;
