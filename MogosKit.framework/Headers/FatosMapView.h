@@ -117,6 +117,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) SetRouteLineMode:(int)mode;
 - (void) SetUIViewSize:(CGSize)frame;
 - (void) SetFuelType:(NSString *)fuelType;
+- (void) DebugPrintCurrentPosition;
 - (NSArray *) GetFitLevelPos;
 - (NSArray *) GetFitLevelPos:(CGSize)scale;
 - (BOOL) GetFitLevelMBR_wgs84:(CGPoint)dmin dmax:(CGPoint)dmax fLevel:(float*) fLevel;
