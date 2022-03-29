@@ -800,6 +800,10 @@ public struct VERTEX32 {
 public struct VERTEX32D {
   public mutating func reset()
 }
+public func mglDegreeToWorldX(f: Swift.Double) -> Swift.Int
+public func mglDegreeToWorldY(f: Swift.Double) -> Swift.Int
+public func mglWorldToDegreeX(i: Swift.Int) -> Swift.Double
+public func mglWorldToDegreeY(i: Swift.Int) -> Swift.Double
 public enum eSearch_Special : Swift.Int {
   case PARKING
   case FUEL
