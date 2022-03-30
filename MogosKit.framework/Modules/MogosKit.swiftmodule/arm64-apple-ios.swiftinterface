@@ -880,6 +880,7 @@ public enum eSearch_Special : Swift.Int {
   open func Map_GetViewTilt() -> Swift.Float
   open func Map_OnStartGoalSet(startName: Swift.String, startX: Swift.Double, startY: Swift.Double, goalName: Swift.String, goalX: Swift.Double, goalY: Swift.Double)
   open func Map_SetFlag(_ viewObj: Swift.Int, _ posX: Swift.Double, _ posY: Swift.Double, _ viaIdx: Swift.Int)
+  open func Map_GetPosWGS84FromScreen(_ hCenter: Swift.Double, _ vCenter: Swift.Double) -> Swift.Array<Swift.Double>
   open func Navi_RegisterNaviDelegate(_ delegate: MogosKit.FatosNaviModuleDelegate)
   @discardableResult
   open func Navi_InitializeNaviModule(_ lon: Swift.Double, _ lat: Swift.Double, _ angle: Swift.Int = 0) -> Swift.Int

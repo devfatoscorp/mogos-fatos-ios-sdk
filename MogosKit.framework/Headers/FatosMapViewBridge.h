@@ -84,6 +84,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSArray *) GetFitLevelPos;
 + (NSArray *) GetFitLevelPos:(CGSize) scale;
 + (NSArray *) GetPosWGS84;
++ (NSArray *) GetPosWGS84FromScreen:(float)fCenterX fCenterY:(float)fCenterY;
 
 + (float) GetViewTilt;
 @end
