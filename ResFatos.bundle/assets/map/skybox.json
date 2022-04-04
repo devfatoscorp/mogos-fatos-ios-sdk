@@ -1,0 +1,28 @@
+{"frames": [
+
+{
+	"filename": "d_map_sky.png",
+	"frame": {"x":2,"y":2,"w":1080,"h":270},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1080,"h":270},
+	"sourceSize": {"w":1080,"h":270}
+},
+{
+	"filename": "map_sky.png",
+	"frame": {"x":2,"y":274,"w":1080,"h":270},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1080,"h":270},
+	"sourceSize": {"w":1080,"h":270}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "skybox.png",
+	"format": "RGBA8888",
+	"size": {"w":1084,"h":546},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5d01905a2f37dd1d694a2789d1eefb78:e04a5d96b462e51e34927898919e9952:3b5c7924f11aa2173c1c3f05e2b90c6c$"
+}
+}

@@ -618,6 +618,9 @@ public enum rg_command_type : Swift.Int32, Swift.CaseIterable {
   case rg_resume_t
   case waypoint_pass_t
   case remove_last_route_t
+  case make_route_param_t
+  case add_route_mvt_t
+  case set_route_param_t
   public init?(rawValue: Swift.Int32)
   public typealias AllCases = [MogosKit.rg_command_type]
   public typealias RawValue = Swift.Int32
@@ -909,7 +912,7 @@ public enum eSearch_Special : Swift.Int {
   open func Navi_GetAsyncTaskPosWorldGeoCodeString(target: Any, selector: ObjectiveC.Selector, nLon: Swift.Int32, nLat: Swift.Int32)
   open func Navi_GetGeoCodeString(dLon: Swift.Double, dLat: Swift.Double) -> Swift.String
   open func Navi_GetGeoCodeStringByTile(dLon: Swift.Double, dLat: Swift.Double) -> Swift.String
-  open func Navi_GetMvt(_ data: Foundation.Data, _ type: Swift.Int32)
+  open func Navi_GetMvt(_ data: Foundation.Data, _ type: Swift.Int32) -> Foundation.Data
   open func Navi_GetComplexCrossImage(_ nImgId: Swift.Int32, bNight: Swift.Bool) -> Foundation.Data
   open func Navi_SetMvt(_ data: Foundation.Data, _ type: Swift.Int32, _ hashKey: Swift.UInt64 = 0)
   open func Navi_RevertRoute()

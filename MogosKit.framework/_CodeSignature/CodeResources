@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		50IuDb0NsqjQf/S1CXAkaAu/3Zo=
+		fXmGdQpbw3b+Q4IW2aR+iurfCts=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		teIlip5l1NJdZw6giyjCxRNfqpA=
+		YGH3nhY6zujmBdtuTkJHgVfhI48=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -6500,6 +6500,14 @@
 		<data>
 		ZdjBh0lmtIE83TzqY0JOjvdwaJY=
 		</data>
+		<key>ResFatos.bundle/assets/map/skybox.json</key>
+		<data>
+		pwfvevuOQ6XGP+xEJej/cKqfqws=
+		</data>
+		<key>ResFatos.bundle/assets/map/skybox.png</key>
+		<data>
+		+pvgZZN3PwQpleV8K+p2hM3EB0Q=
+		</data>
 		<key>ResFatos.bundle/assets/map/symbolday.json</key>
 		<data>
 		KXE5lcxjK0OSDcAhSL4eb9Q9VNE=
@@ -6697,22 +6705,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			50IuDb0NsqjQf/S1CXAkaAu/3Zo=
+			fXmGdQpbw3b+Q4IW2aR+iurfCts=
 			</data>
 			<key>hash2</key>
 			<data>
-			5cxKn1kkvbwOy5VL8mj/Hh7usEanMbZYGuSA2uVPX7k=
+			y6VIE2MfO7119dx+jlsshZ+ov9GV9yK7XJ7BE/KcQ/Q=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			teIlip5l1NJdZw6giyjCxRNfqpA=
+			YGH3nhY6zujmBdtuTkJHgVfhI48=
 			</data>
 			<key>hash2</key>
 			<data>
-			oQc1AETliReGhhPJ71G9/gOORkaedSVbiJ7cbudwvJg=
+			/MMA/dMPNUKUHYVFjQ0g/zO4fcyjLn9EfkrBxgEnEDU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -24423,6 +24431,28 @@
 			<key>hash2</key>
 			<data>
 			/yhnU2ZLyem2LPwvNRUU7an9LbAbkGj8dF6sRYBCSRs=
+			</data>
+		</dict>
+		<key>ResFatos.bundle/assets/map/skybox.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pwfvevuOQ6XGP+xEJej/cKqfqws=
+			</data>
+			<key>hash2</key>
+			<data>
+			pXaD5FLJtnGKyupUeAMLEHXbVzYyi+jKK2HSFhoB71g=
+			</data>
+		</dict>
+		<key>ResFatos.bundle/assets/map/skybox.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+pvgZZN3PwQpleV8K+p2hM3EB0Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			GvuQrC5b2ASRr/SuAPQrmYxS2xTwouCWSkGL2pZQmfk=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/assets/map/symbolday.json</key>
