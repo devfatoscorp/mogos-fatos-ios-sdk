@@ -917,6 +917,7 @@ public enum eSearch_Special : Swift.Int {
   open func Navi_SetMvt(_ data: Foundation.Data, _ type: Swift.Int32, _ hashKey: Swift.UInt64 = 0)
   open func Navi_RevertRoute()
   open func Navi_SetDeviceScreenInfo(_ dScreenX: Swift.Double, _ dScreenY: Swift.Double, _ dRealScreenX: Swift.Double, _ dRealScreenY: Swift.Double)
+  open func Navi_GetRegion(_ lon: Swift.Double, _ lat: Swift.Double) -> Swift.String
   open func Env_SetLanguage(_ value: Foundation.NSNumber)
   open func Env_SetPathLineColor(_ value: Foundation.NSNumber)
   open func Env_SetNavigationOptions(_ arr: [Any])

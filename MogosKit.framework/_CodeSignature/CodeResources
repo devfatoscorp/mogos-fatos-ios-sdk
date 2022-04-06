@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/FatosNaviModule.h</key>
 		<data>
-		FdAq7ZIuPNBFQdiSYfPAfFd+gXg=
+		dJh+gCtyJ6XbrQa2I+MmMfCgIWc=
 		</data>
 		<key>Headers/GPSService.h</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		fXmGdQpbw3b+Q4IW2aR+iurfCts=
+		WWYKlXBVEo29GoTdxf5ze5dBX1I=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YGH3nhY6zujmBdtuTkJHgVfhI48=
+		NkCpnLo+2QSBeXuly+lUcIFzh7M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -6650,11 +6650,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FdAq7ZIuPNBFQdiSYfPAfFd+gXg=
+			dJh+gCtyJ6XbrQa2I+MmMfCgIWc=
 			</data>
 			<key>hash2</key>
 			<data>
-			T7wGvrHJTCKiLo+8jc0tv884bfbXYQEq3V8diTJdqQo=
+			AMSq0zTOjN4EEP2QP2PMSXdDlmGVKtM1tp3LSlXmarw=
 			</data>
 		</dict>
 		<key>Headers/GPSService.h</key>
@@ -6705,22 +6705,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fXmGdQpbw3b+Q4IW2aR+iurfCts=
+			WWYKlXBVEo29GoTdxf5ze5dBX1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			y6VIE2MfO7119dx+jlsshZ+ov9GV9yK7XJ7BE/KcQ/Q=
+			XDCEaZqS1FiRuaZIMQ0kxAWlapHcv3aU+dd1vFl1LkA=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YGH3nhY6zujmBdtuTkJHgVfhI48=
+			NkCpnLo+2QSBeXuly+lUcIFzh7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			/MMA/dMPNUKUHYVFjQ0g/zO4fcyjLn9EfkrBxgEnEDU=
+			YDzAkL3NffWCkd2aGbFWPO4w4p+aX+9zGwxZuHyIYm8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

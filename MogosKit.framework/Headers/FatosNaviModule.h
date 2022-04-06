@@ -81,6 +81,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSData *) GetComplexCrossImage:(int)imgId bNight:(bool)bNight;
 - (void) SetMvt:(NSData *)reqMvt nSetType:(int)nSetType;
 - (void) SetMvt:(NSData *) reqMvt nSetType:(int)nSetType nHashKey:(uint64_t)nHashKey;
+- (NSString *) GetRegion:(double)xlon ylat:(double)ylat;
 - (void) RevertRoute;
 + (void) SetStartFlagYX:(double)y x:(double)x;
 + (void) SetGoalYX:(double)y strX:(double)x;
