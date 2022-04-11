@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FatosMapViewBridge : NSObject
 
 + (void) MapRefresh;
++ (void) ForceMapRender;
 + (void) MapRefreshBaseLayer:(NSArray *)arrBaseLayer;
 + (void) KsLinkRefresh;
 + (void) setViewMode:(nonnull NSNumber *)mode;
