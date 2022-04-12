@@ -88,6 +88,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSArray *) GetPosWGS84FromScreen:(float)fCenterX fCenterY:(float)fCenterY;
 + (NSArray *) GetWorldToScreen:(int)nlon nlat:(int)nlat;
 + (NSArray *) GetWGS84ToScreen:(double)dlon dlat:(double)dlat;
++ (NSString *) GetMarkerScreen;
 
 + (float) GetViewTilt;
 @end

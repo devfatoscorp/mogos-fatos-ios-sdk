@@ -132,6 +132,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL) SetRouteLine3DScale:(int)scale isZoomIn:(bool)isZoomIn;
 - (BOOL) SetRouteLineDirectionShape:(int)shape;
 - (BOOL) SetRouteDirShapeColor:(NSDictionary *)color;
+- (NSString *) GetMarkerScreen;
 
 
 @property(strong, nonatomic) CADisplayLink* displayLink;
