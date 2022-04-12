@@ -121,6 +121,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) render;
 - (NSArray *) GetFitLevelPos;
 - (NSArray *) GetFitLevelPos:(CGSize)scale;
+- (NSArray *) GetWorldToScreen:(int)nlon nlat:(int)nlat;
+- (NSArray *) GetWGS84ToScreen:(double)dlon dlat:(double)dlat;
 - (BOOL) GetFitLevelMBR_wgs84:(CGPoint)dmin dmax:(CGPoint)dmax fLevel:(float*) fLevel;
 - (BOOL) GetFitLevelPosArray:(CGPoint)vscaleScreen fLevel:(float*)fLevel wgs84Center:(CGPoint*)wgs84Center wgs84Array:(NSArray*)wgs84Array;
 - (BOOL) SetDrawSDILine:(bool)val;
