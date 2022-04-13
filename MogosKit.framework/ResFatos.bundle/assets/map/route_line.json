@@ -64,6 +64,6 @@
   "linewidth": {
     "line" : 1.6,
     "outline" : 0.8,
-    "noneselected" : 0.8
+    "noneselected" : 0.6
   }
 }
