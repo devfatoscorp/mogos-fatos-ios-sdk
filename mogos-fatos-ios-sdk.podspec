@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'mogos-fatos-ios-sdk'
-  s.version          = '1.0.59'
+  s.version          = '1.0.60'
   s.summary          = 'FATOS Mogos SDK for internal distribution via gitlab.'
   s.deprecated_in_favor_of = 'MogosKit'
 
