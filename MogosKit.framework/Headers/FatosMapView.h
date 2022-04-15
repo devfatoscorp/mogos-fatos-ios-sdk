@@ -117,6 +117,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) SetRouteLineMode:(int)mode;
 - (void) SetUIViewSize:(CGSize)frame;
 - (void) SetFuelType:(NSString *)fuelType;
+- (void) SetFramePerSecond:(int)fps;
 - (void) DebugPrintCurrentPosition;
 - (void) render;
 - (NSArray *) GetFitLevelPos;
@@ -138,6 +139,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(strong, nonatomic) CADisplayLink* displayLink;
 @property(weak, nonatomic) id<FatosMapViewDelegate> delegate;
 @property(nonatomic, assign) BOOL isRender;
+@property(nonatomic, assign) BOOL isUserInteracting;
 
 + (FatosMapView *)sharedMapView;
 
