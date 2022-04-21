@@ -592,6 +592,8 @@ public enum request_type : Swift.Int32, Swift.CaseIterable {
   case route_user_add_t
   case route_continue_t
   case route_manual_t
+  case route_alternative_multi_t
+  case route_injection_t
   case voice_tts_send_t
   case voice_wave_send_t
   case config_set_t
@@ -887,6 +889,7 @@ public enum eSearch_Special : Swift.Int {
   open func Map_GetWGS84ToScreen(_ dlon: Swift.Double, _ dlat: Swift.Double) -> Swift.Array<Swift.Int>
   open func Map_GetWorldToScreen(_ nlon: Swift.Int, _ nlat: Swift.Int) -> Swift.Array<Swift.Int>
   open func Map_GetMarkerScreen() -> Swift.String
+  open func Map_IsDriveViewModeAvailable() -> Swift.Bool
   open func Navi_RegisterNaviDelegate(_ delegate: MogosKit.FatosNaviModuleDelegate)
   @discardableResult
   open func Navi_InitializeNaviModule(_ lon: Swift.Double, _ lat: Swift.Double, _ angle: Swift.Int = 0) -> Swift.Int
