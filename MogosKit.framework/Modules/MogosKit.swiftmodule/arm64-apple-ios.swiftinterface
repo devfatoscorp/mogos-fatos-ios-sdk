@@ -593,7 +593,6 @@ public enum request_type : Swift.Int32, Swift.CaseIterable {
   case route_continue_t
   case route_manual_t
   case route_alternative_multi_t
-  case route_injection_t
   case voice_tts_send_t
   case voice_wave_send_t
   case config_set_t
@@ -623,6 +622,7 @@ public enum rg_command_type : Swift.Int32, Swift.CaseIterable {
   case make_route_param_t
   case add_route_mvt_t
   case set_route_param_t
+  case inject_route_t
   public init?(rawValue: Swift.Int32)
   public typealias AllCases = [MogosKit.rg_command_type]
   public typealias RawValue = Swift.Int32
