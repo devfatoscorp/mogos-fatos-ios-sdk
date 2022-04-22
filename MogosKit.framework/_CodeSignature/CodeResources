@@ -6350,11 +6350,11 @@
 		</data>
 		<key>ResFatos.bundle/assets/map/alternative.json</key>
 		<data>
-		bVZfqjT99wzoYGZ2xT4XIIZbk6s=
+		x4pKVncIRYfn6rZj5l0Kg1XWPzU=
 		</data>
 		<key>ResFatos.bundle/assets/map/alternative.png</key>
 		<data>
-		PYlegWGtgG9m62aCe9xAmk+6rDs=
+		M48Qdi14mhdoDwIcscZ+XTaiRVY=
 		</data>
 		<key>ResFatos.bundle/assets/map/building.json</key>
 		<data>
@@ -6466,7 +6466,7 @@
 		</data>
 		<key>ResFatos.bundle/assets/map/res.json</key>
 		<data>
-		cuSaDhyN0L2SDHeyIE+WQSyXwAQ=
+		DLgpo89NvSw3HqPeRRQRdIbN1kU=
 		</data>
 		<key>ResFatos.bundle/assets/map/road_way.json</key>
 		<data>
@@ -24019,22 +24019,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bVZfqjT99wzoYGZ2xT4XIIZbk6s=
+			x4pKVncIRYfn6rZj5l0Kg1XWPzU=
 			</data>
 			<key>hash2</key>
 			<data>
-			imuPShAGfU+W73WiAuHxNQU2Z4zfTc2L0awdVp22SrA=
+			7fkASvuI12e8pj0ZH6QJgx3nKhCdDNbD0KZfVvfGYIY=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/assets/map/alternative.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PYlegWGtgG9m62aCe9xAmk+6rDs=
+			M48Qdi14mhdoDwIcscZ+XTaiRVY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ecqqafohHaIGst8ljEeoOlReK4NL+90nGD9qhWtIRO4=
+			yen1KY2Tnu5KJR42Fs3utpSscsBK3w0yl5aksRsxshs=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/assets/map/building.json</key>
@@ -24338,11 +24338,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cuSaDhyN0L2SDHeyIE+WQSyXwAQ=
+			DLgpo89NvSw3HqPeRRQRdIbN1kU=
 			</data>
 			<key>hash2</key>
 			<data>
-			oV3gaAgwi6FtXrZCPoJOSDNDXJ7FTFxsfuINgnezIcQ=
+			/91E/G0VRFcPRffOVbUCAjVuHKhlPVNvbYFiBIr9Gl4=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/assets/map/road_way.json</key>
