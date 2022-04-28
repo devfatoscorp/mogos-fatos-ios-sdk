@@ -861,6 +861,7 @@ public enum eSearch_Special : Swift.Int {
   open func Map_SetMapShiftCenter(_ hCenter: Swift.Float, _ vCenter: Swift.Float)
   open func Map_SetTouchState(_ nState: Swift.Int32)
   open func Map_SetPosWGS84(_ fLon: Swift.Double, _ fLat: Swift.Double)
+  open func Map_MoveWGS84(_ fLon: Swift.Double, _ fLat: Swift.Double)
   open func Map_SetRouteLine3DShape(_ nShape: Swift.Int32)
   open func Map_SetRouteLine3DColor(_ top: [Swift.AnyHashable : Any], _ bottom: [Swift.AnyHashable : Any])
   open func Map_SetRouteLine3DScale(_ nScale: Swift.Int32, _ bIsZoomIn: Swift.Bool)

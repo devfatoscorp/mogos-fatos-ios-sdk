@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		kfH4fmHVYyYPmNhvzXVWd3edev4=
+		s/T3CUHTJsgLj4CbaOEB+z9ayyg=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		iRj72tGfh7if3LqNypd7x0oMkh8=
+		LSPVOpaTsV8gXsZ+enoM8JuIDfc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -6705,22 +6705,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kfH4fmHVYyYPmNhvzXVWd3edev4=
+			s/T3CUHTJsgLj4CbaOEB+z9ayyg=
 			</data>
 			<key>hash2</key>
 			<data>
-			pjCWp0E0wimVjjKm5k0Hdighioo3wY/dZn+F2DXbUw0=
+			QMzmTiKIpHAm4EQa92Qzxa0bJwkhsWmtbEMkiOxiRGE=
 			</data>
 		</dict>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iRj72tGfh7if3LqNypd7x0oMkh8=
+			LSPVOpaTsV8gXsZ+enoM8JuIDfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			7xdREYeceeQxM9BEfSWocFTX5eLJ1FuH5oKh4ImQQcc=
+			xgWVzwwqxMSabju3nmgEfuC5lxadzSZoaM9wUQf+QJQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
