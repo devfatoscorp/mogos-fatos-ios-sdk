@@ -896,6 +896,7 @@ public enum eSearch_Special : Swift.Int {
   open func Navi_InitializeNaviModule(_ lon: Swift.Double, _ lat: Swift.Double, _ angle: Swift.Int = 0) -> Swift.Int
   @discardableResult
   open func Navi_DestroyNaviModule() -> Swift.Bool
+  open func Navi_InitGPSService() -> Swift.Bool
   open func Navi_ReRoute()
   open func Navi_Route()
   open func Navi_CancelRoute()
