@@ -505,6 +505,8 @@ public struct rp_info_st {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class rg_result : ObjectiveC.NSObject {
+  @discardableResult
+  open func decode(bin: Foundation.Data) -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
 }
