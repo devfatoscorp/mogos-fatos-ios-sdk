@@ -985,6 +985,7 @@ public enum eSearch_Special : Swift.Int {
   @objc public func onMapAuto()
   @objc public func onInitializeStatus(_ status: Swift.Int32, value: Swift.String)
   @objc public func didChange(_ status: CoreLocation.CLAuthorizationStatus)
+  public func Hello()
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VoiceManager : ObjectiveC.NSObject, Foundation.ObservableObject {
   @Combine.Published @_projectedValueProperty($mbln_DuckOthers) public var mbln_DuckOthers: Swift.Bool {
