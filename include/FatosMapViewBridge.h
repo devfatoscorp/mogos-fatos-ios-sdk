@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FatosMapViewBridge : NSObject
 
 + (void) MapRefresh;
++ (void) ForceMapRender;
 + (void) MapRefreshBaseLayer:(NSArray *)arrBaseLayer;
 + (void) KsLinkRefresh;
 + (void) setViewMode:(nonnull NSNumber *)mode;
@@ -27,6 +28,12 @@ NS_ASSUME_NONNULL_BEGIN
 + (void) setMapLevel:(float)fLevel type:(nonnull NSNumber *)type;
 + (void) MapAuto;
 + (void) MapAuto:(bool)withAnimation;
++ (void) MapAuto:(int)nViewMode
+        fScreenX:(float)fScreenX fScreenY:(float)fScreenY fLevel:(float)fLevel
+           fTilt:(float)fTilt bAni:(bool)bAni bAutoState:(bool)bAutoState;
++ (void) SetMapScene:(int)nViewMode posX:(double)posX posY:(double)posY
+            fScreenX:(float)fScreenX fScreenY:(float)fScreenY fLevel:(float)fLevel
+               fTilt:(float)fTilt bAni:(bool)bAni bAutoState:(bool)bAutoState;
 + (void) MapAutoOnAutoScale:(float)tilt level:(float)level;
 + (void) MapAutoScale:(float)tilt level:(float)level;
 + (void) MapMove;
@@ -78,6 +85,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSArray *) GetFitLevelPos;
 + (NSArray *) GetFitLevelPos:(CGSize) scale;
 + (NSArray *) GetPosWGS84;
++ (NSArray *) GetPosWGS84FromScreen:(float)fCenterX fCenterY:(float)fCenterY;
++ (NSArray *) GetWorldToScreen:(int)nlon nlat:(int)nlat;
++ (NSArray *) GetWGS84ToScreen:(double)dlon dlat:(double)dlat;
++ (NSString *) GetMarkerScreen;
 
 + (float) GetViewTilt;
 @end

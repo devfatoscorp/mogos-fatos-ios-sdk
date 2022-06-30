@@ -134,6 +134,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// SDK 키 세팅
 /// @param sdkKey SDK Key
 + (void) SetSDKKey:(NSString *)sdkKey;
++ (void) SetDeviceScreenInfo:(double)dScreenX dScreenY:(double)dScreenY dRealScreenX:(double)dRealScreenX dRealScreenY:(double) dRealScreenY;
 
 /// 경로 존재 여부
 + (BOOL) IsRoute DEPRECATED_MSG_ATTRIBUTE("Use rg_one.ui.has_route instead");

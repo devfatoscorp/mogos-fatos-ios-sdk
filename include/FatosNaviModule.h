@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
   bool mbln_MapMoveCurrentEvent;
 }
 - (id)initNaviModule:(NSString *)sdkKey;
-- (void) initFatosNaviEngine;
+- (int) initFatosNaviEngine:(double)lon :(double)lat :(int)angle;
 
 - (void) onUpdateRG:(NSData *)rgMvt;
 - (void) OnRouteResult:(int)itype ierr:(int)ierr pCtx:(void*)pCtx isLocal:(BOOL)isLocal;
@@ -39,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL) InitServiceURL;
 - (BOOL) InitResource;
 
-- (BOOL) InitNavi;
+- (int) InitNavi:(double)lon :(double)lat :(int)angle;
 - (void) ReleaseNavi;
 
 - (void) routeExternal:(NSDictionary *)jsonDic strFeeOption:(NSString *)strFeeOption bRequest:(BOOL)bRequest;
@@ -81,9 +81,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSData *) GetComplexCrossImage:(int)imgId bNight:(bool)bNight;
 - (void) SetMvt:(NSData *)reqMvt nSetType:(int)nSetType;
 - (void) SetMvt:(NSData *) reqMvt nSetType:(int)nSetType nHashKey:(uint64_t)nHashKey;
+- (NSString *) GetRegion:(double)xlon ylat:(double)ylat;
 - (void) RevertRoute;
 + (void) SetStartFlagYX:(double)y x:(double)x;
 + (void) SetGoalYX:(double)y strX:(double)x;
+- (void) SetDeviceScreenInfo:(double)dScreenX dScreenY:(double)dScreenY dRealScreenX:(double)dRealScreenX dRealScreenY:(double) dRealScreenY;
 
 - (BOOL) IsRoute;
 - (void) SetSendTrackerData:(bool)val;

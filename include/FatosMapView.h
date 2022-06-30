@@ -42,8 +42,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) setMapLevelOut:(int)nType;
 - (void) setMapLevel:(float)fLevel nType:(int)nType;
 - (float) getMapLevel;
+- (void) resetAnimation;
 - (void) setMapAuto:(double)fLonX fLatY:(double)fLatY;
 - (void) setMapAuto:(double)fLonX fLatY:(double)fLatY withAnimation:(bool)withAnimation;
+- (void) setMapAuto:(double)fLonX fLatY:(double)fLatY nViewMode:(int)nViewMode
+           fScreenX:(float)fScreenX fScreenY:(float)fScreenY fLevel:(float)fLevel
+              fTilt:(float)fTilt bAni:(bool)bAni;
+- (void) setMapScene:(double)fLonX fLatY:(double)fLatY nViewMode:(int)nViewMode
+           fScreenX:(float)fScreenX fScreenY:(float)fScreenY fLevel:(float)fLevel
+              fTilt:(float)fTilt bAni:(bool)bAni bAutoState:(bool)bAutoState;
 - (void) setMapAutoOnAutoScale:(double)fLonX fLatY:(double)fLatY tilt:(float)tilt level:(float)level withAnimation:(bool)withAnimation;
 - (void) setMapMove:(double)fLonX fLatY:(double)fLatY;
 - (int) GetViewMode;
@@ -110,8 +117,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) SetRouteLineMode:(int)mode;
 - (void) SetUIViewSize:(CGSize)frame;
 - (void) SetFuelType:(NSString *)fuelType;
+- (void) SetFramePerSecond:(int)fps;
+- (void) DebugPrintCurrentPosition;
+- (void) render;
 - (NSArray *) GetFitLevelPos;
 - (NSArray *) GetFitLevelPos:(CGSize)scale;
+- (NSArray *) GetWorldToScreen:(int)nlon nlat:(int)nlat;
+- (NSArray *) GetWGS84ToScreen:(double)dlon dlat:(double)dlat;
 - (BOOL) GetFitLevelMBR_wgs84:(CGPoint)dmin dmax:(CGPoint)dmax fLevel:(float*) fLevel;
 - (BOOL) GetFitLevelPosArray:(CGPoint)vscaleScreen fLevel:(float*)fLevel wgs84Center:(CGPoint*)wgs84Center wgs84Array:(NSArray*)wgs84Array;
 - (BOOL) SetDrawSDILine:(bool)val;
@@ -121,11 +133,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL) SetRouteLine3DScale:(int)scale isZoomIn:(bool)isZoomIn;
 - (BOOL) SetRouteLineDirectionShape:(int)shape;
 - (BOOL) SetRouteDirShapeColor:(NSDictionary *)color;
+- (NSString *) GetMarkerScreen;
 
 
 @property(strong, nonatomic) CADisplayLink* displayLink;
 @property(weak, nonatomic) id<FatosMapViewDelegate> delegate;
 @property(nonatomic, assign) BOOL isRender;
+@property(nonatomic, assign) BOOL isUserInteracting;
 
 + (FatosMapView *)sharedMapView;
 

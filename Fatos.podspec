@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Fatos'
-  s.version          = '1.0.5'
+  s.version          = '1.1.4'
   s.summary          = 'FATOS Mogos SDK for internal distribution via gitlab.'
 
   s.description      = <<-DESC
