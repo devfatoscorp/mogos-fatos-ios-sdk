@@ -875,7 +875,6 @@ public enum eSearch_Special : Swift.Int {
   open func Map_SetBuildingOnOff(_ bVisible: Swift.Bool)
   open func Map_SetBuildingHeight(_ fHeight: Swift.Float, _ bVisibleOffAfterAnimation: Swift.Bool)
   open func Map_SetRouteLineMode(_ nMode: Swift.Int32)
-  open func Map_SetMapModeType(_ nMode: Foundation.NSNumber)
   open func Map_GetViewMode() -> Swift.Int32
   open func Map_GetMapLevel() -> Swift.Int32
   open func Map_GetTouchState() -> Swift.Int32
@@ -887,6 +886,7 @@ public enum eSearch_Special : Swift.Int {
   open func Map_GetFitLevelPos(_ scale: CoreGraphics.CGSize = CGSize(width: 0.5, height: 0.5)) -> Swift.Array<Swift.Double>
   open func Map_GetPosWGS84() -> Swift.Array<Swift.Double>
   open func Map_GetViewTilt() -> Swift.Float
+  open func Map_OnStartGoalSet(startName: Swift.String, startX: Swift.Double, startY: Swift.Double, goalName: Swift.String, goalX: Swift.Double, goalY: Swift.Double)
   open func Map_SetFlag(_ viewObj: Swift.Int, _ posX: Swift.Double, _ posY: Swift.Double, _ viaIdx: Swift.Int)
   open func Map_GetPosWGS84FromScreen(_ hCenter: Swift.Double, _ vCenter: Swift.Double) -> Swift.Array<Swift.Double>
   open func Map_GetWGS84ToScreen(_ dlon: Swift.Double, _ dlat: Swift.Double) -> Swift.Array<Swift.Int>
