@@ -37,6 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) viewSizeUpdate;
 - (void) panGesture:(UIPanGestureRecognizer *)gestureRecognizer inView:(UIView*)view;
 - (void) setViewMode:(NSNumber *)mode;
+- (void) setMapModeType:(NSNumber *)mode;
 - (void) setAirlineMode:(NSDictionary *) baseLayerType bVisible:(NSDictionary *)bVisible;
 - (void) setMapLevelIn:(int)nType;
 - (void) setMapLevelOut:(int)nType;
