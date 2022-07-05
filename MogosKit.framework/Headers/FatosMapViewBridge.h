@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void) MapRefreshBaseLayer:(NSArray *)arrBaseLayer;
 + (void) KsLinkRefresh;
 + (void) setViewMode:(nonnull NSNumber *)mode;
+//+ (void) setMapModeType:(nonnull NSNumber *)mode;
 + (void) setLayer:(NSDictionary *) baseLayerType bVisible:(NSDictionary *)bVisible;
 + (void) SetVisible:(NSArray *)arrObjType arrVisibility:(NSArray *)arrVisibility;
 + (void) SetVisibleBaseLayer:(NSArray *)arrObjType arrVisibility:(NSArray *)arrVisibility;
@@ -39,7 +40,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (void) MapMove;
 + (void) MapMove:(float)fLonX fLatY:(float)fLatY;
 + (void) MapSelectRouteLine:(int)nIndex;
-+ (void) SummaryMapSetting:(NSDictionary *)lineColor xScale:(float)xScale yScale:(float)yScale
++ (void) SummaryMapSetting:(NSDictionary *)lineColor
+xScale:(float)xScale yScale:(float)yScale
                    hCenter:(float)hCenter vCenter:(float)vCenter blnViewMode:(BOOL)blnViewMode;
 + (void) DefaultMapSetting;
 + (void) SelectRouteLine:(int)index;
@@ -56,6 +58,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (void) SetMapCenter:(float)hCenter vCenter:(float)vCenter;
 + (void) SetMapShiftCenter:(float)hCenter vCenter:(float)vCenter;
 + (void) SetTouchState:(int)state;
+// 2022,06,29 Add MapModeType
++ (void) SetMapModeType:(nonnull NSNumber *)mapModeType;
 + (void) SetPosWGS84:(double)xlon ylat:(double)ylat;
 + (void) SetRouteLine3DShape:(int)shape;
 + (void) SetRouteLine3DColor:(NSDictionary *)top bottom:(NSDictionary *)bottom;
