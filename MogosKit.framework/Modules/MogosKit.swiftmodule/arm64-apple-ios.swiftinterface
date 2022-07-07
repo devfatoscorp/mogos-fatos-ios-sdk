@@ -875,7 +875,7 @@ public enum eSearch_Special : Swift.Int {
   open func Map_SetBuildingOnOff(_ bVisible: Swift.Bool)
   open func Map_SetBuildingHeight(_ fHeight: Swift.Float, _ bVisibleOffAfterAnimation: Swift.Bool)
   open func Map_SetRouteLineMode(_ nMode: Swift.Int32)
-  open func Map_SetMapModeType(_ nMode: Foundation.NSNumber)
+  open func Map_SetMapModeType(_ nMode: Foundation.NSNumber) -> Swift.Bool
   open func Map_GetViewMode() -> Swift.Int32
   open func Map_GetMapLevel() -> Swift.Int32
   open func Map_GetTouchState() -> Swift.Int32

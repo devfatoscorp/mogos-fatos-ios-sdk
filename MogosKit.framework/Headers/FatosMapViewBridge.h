@@ -59,7 +59,7 @@ xScale:(float)xScale yScale:(float)yScale
 + (void) SetMapShiftCenter:(float)hCenter vCenter:(float)vCenter;
 + (void) SetTouchState:(int)state;
 // 2022,06,29 Add MapModeType
-+ (void) SetMapModeType:(nonnull NSNumber *)mapModeType;
++ (BOOL) SetMapModeType:(nonnull NSNumber *)mapModeType;
 + (void) SetPosWGS84:(double)xlon ylat:(double)ylat;
 + (void) SetRouteLine3DShape:(int)shape;
 + (void) SetRouteLine3DColor:(NSDictionary *)top bottom:(NSDictionary *)bottom;
@@ -95,6 +95,7 @@ xScale:(float)xScale yScale:(float)yScale
 + (NSString *) GetMarkerScreen;
 
 + (float) GetViewTilt;
+
 @end
 
 NS_ASSUME_NONNULL_END
