@@ -1,32 +1,52 @@
 {"frames": [
 
-    {
-        "filename": "pin_goal.png",
-        "frame": {"x":0,"y":0,"w":186,"h":256}
-    },
-    {
-        "filename": "pin_goal_middle.png",
-        "frame": {"x":186,"y":0,"w":186,"h":256}
-    },
-    {
-        "filename": "pin_point.png",
-        "frame": {"x":372,"y":0,"w":186,"h":256}
-    },
-    {
-        "filename": "pin_start.png",
-        "frame": {"x":558,"y":0,"w":186,"h":256}
-    },
-    {
-        "filename": "pin_w3w_point.png",
-        "frame": {"x":744,"y":0,"w":186,"h":256}
-    }],
-    "meta": {
-        "app": "http://www.codeandweb.com/texturepacker",
-        "version": "1.0",
-        "image": "pin.png",
-        "format": "RGBA8888",
-        "size": {"w":930,"h":256},
-        "scale": "1",
-        "smartupdate": "$TexturePacker:SmartUpdate:89a564d0d5d6cf4e83aad9fc62a4b631:94f775be126a2cfc79aa38f94d5ed838:e5b2433fd0b80c346384d78638235fe6$"
-    }
+{
+	"filename": "pin_goal.png",
+	"frame": {"x":2,"y":2,"w":186,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":256},
+	"sourceSize": {"w":186,"h":256}
+},
+{
+	"filename": "pin_goal_middle.png",
+	"frame": {"x":190,"y":2,"w":186,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":256},
+	"sourceSize": {"w":186,"h":256}
+},
+{
+	"filename": "pin_point.png",
+	"frame": {"x":378,"y":2,"w":186,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":256},
+	"sourceSize": {"w":186,"h":256}
+},
+{
+	"filename": "pin_start.png",
+	"frame": {"x":566,"y":2,"w":186,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":256},
+	"sourceSize": {"w":186,"h":256}
+},
+{
+	"filename": "pin_w3w_point.png",
+	"frame": {"x":754,"y":2,"w":186,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":256},
+	"sourceSize": {"w":186,"h":256}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "pin.png",
+	"format": "RGBA8888",
+	"size": {"w":942,"h":260},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f51ca079dc1fc50fd588af9328fefa5c:c042d8391ac83a5ce73295d7952e7b19:e5b2433fd0b80c346384d78638235fe6$"
+}
 }
