@@ -88,6 +88,7 @@ xScale:(float)xScale yScale:(float)yScale
 + (NSMutableDictionary *) GetFitLevelPosArray:(NSDictionary *)vscaleScreen wgs84Array:(NSArray *)wgs84Array;
 + (NSArray *) GetFitLevelPos;
 + (NSArray *) GetFitLevelPos:(CGSize) scale;
++ (NSArray *) GetUserLineFitLevelPos:(int) index;
 + (NSArray *) GetPosWGS84;
 + (NSArray *) GetPosWGS84FromScreen:(float)fCenterX fCenterY:(float)fCenterY;
 + (NSArray *) GetWorldToScreen:(int)nlon nlat:(int)nlat;

@@ -123,6 +123,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) render;
 - (NSArray *) GetFitLevelPos;
 - (NSArray *) GetFitLevelPos:(CGSize)scale;
+- (NSArray *) GetUserLineFitLevelPos:(int)index;
 - (NSArray *) GetWorldToScreen:(int)nlon nlat:(int)nlat;
 - (NSArray *) GetWGS84ToScreen:(double)dlon dlat:(double)dlat;
 - (BOOL) GetFitLevelMBR_wgs84:(CGPoint)dmin dmax:(CGPoint)dmax fLevel:(float*) fLevel;
