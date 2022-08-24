@@ -858,7 +858,7 @@ public enum eSearch_Special : Swift.Int {
   open func Map_DelMarkerGroup(_ strJson: Swift.String)
   open func Map_ClearMarker()
   open func Map_SetMarkerTextVisible(_ bVisible: Swift.Bool)
-  open func Map_SetUserLine(_ strJson: Swift.String)
+  open func Map_SetUserLine(_ strJson: Swift.String) -> Swift.Bool
   open func Map_SetMapCenter(_ hCenter: Swift.Float, _ vCenter: Swift.Float)
   open func Map_SetMapShiftCenter(_ hCenter: Swift.Float, _ vCenter: Swift.Float)
   open func Map_SetTouchState(_ nState: Swift.Int32)

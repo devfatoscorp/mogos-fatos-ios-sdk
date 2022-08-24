@@ -54,7 +54,7 @@ xScale:(float)xScale yScale:(float)yScale
 + (void) DelMarkerGroup:(NSString*)strJson;
 + (void) ClearMarker;
 + (void) SetMarkerTextVisible:(bool)bVisible;
-+ (void) SetUserLine:(NSString*)strJson;
++ (bool) SetUserLine:(NSString*)strJson;
 + (void) SetMapCenter:(float)hCenter vCenter:(float)vCenter;
 + (void) SetMapShiftCenter:(float)hCenter vCenter:(float)vCenter;
 + (void) SetTouchState:(int)state;

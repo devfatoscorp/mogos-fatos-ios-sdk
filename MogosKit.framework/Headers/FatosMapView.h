@@ -109,7 +109,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL) DelMarkerGroup:(NSString *)strJson;
 - (void) ClearMarker;
 - (void) SetMarkerTextVisible:(bool)bVisible;
-- (void) SetUserLine:(NSString *)strJson;
+- (bool) SetUserLine:(NSString *)strJson;
 - (void) SetMapCenter:(float)hCenter vCenter:(float)vCenter;
 - (void) GetMapCenter:(float*)hCenter vCenter:(float*)vCenter;
 - (void) SetMapShiftCenter:(float)hCenter vCenter:(float)vCenter;
