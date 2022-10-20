@@ -6,6 +6,6 @@ framework module MogosKit {
 }
 
 module MogosKit.Swift {
-    header "MogosKit-Swift.h"
-    requires objc
+  header "MogosKit-Swift.h"
+  requires objc
 }
