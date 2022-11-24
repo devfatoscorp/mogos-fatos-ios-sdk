@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vegQPgeCTwquWl3Cfc2g2R0Msz8=
+		9Sf1a61aY9fXWvSjNe55xGUz6UE=
 		</data>
 		<key>Modules/MogosKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>ResFatos.bundle/Info.plist</key>
 		<data>
-		p4NLOO6VQmmcNA0OF4pd/Erv17g=
+		WGrlwfB/yskvSP4MuaNLW9GOlUE=
 		</data>
 		<key>ResFatos.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		iVqO9PRwrPuO5J5SJ8mFwe+3V1s=
+		LfsyXglQUnXA8mo/cGIqAXvbb0s=
 		</data>
 		<key>ResFatos.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>ResFatos.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		WW2XhH5UTixsgqUk+EkbPl7UycY=
+		iwJ8BBgdhW+lhJb17aAqbM6vW1o=
 		</data>
 		<key>ResFatos.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>ResFatos.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		YYypyCx75odw4LkjbTkm8qgsAoc=
+		VmE+EDu8gbH12MfVKpSAu2xsCKQ=
 		</data>
 		<key>ResFatos.bundle/assets/environment_default.json</key>
 		<data>
@@ -6788,22 +6788,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p4NLOO6VQmmcNA0OF4pd/Erv17g=
+			WGrlwfB/yskvSP4MuaNLW9GOlUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			nhikBiYzoQfIIWOEdM3vm4ji21ROaTjoZhgtgbmgGWs=
+			9DkkYxf2tNl+fJuGaiRAkanAhKkOAaJGeqHmymf9GK0=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iVqO9PRwrPuO5J5SJ8mFwe+3V1s=
+			LfsyXglQUnXA8mo/cGIqAXvbb0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Q6k6RjxHblzGIq/gD7AQ05rYehMhk3qbUltgz+gOHQ=
+			LQekdVthv1vy7VZQFoEKTKe5GaxtIjsw9maktUpuwQ0=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/_CodeSignature/CodeRequirements</key>
@@ -6821,11 +6821,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WW2XhH5UTixsgqUk+EkbPl7UycY=
+			iwJ8BBgdhW+lhJb17aAqbM6vW1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			uUTIV5fTf7dd/SIqZTzfGsliJjFCULfn4+ITosa/oYU=
+			fLvMV3z3oGNTX/Z5cUX9JM0VoMQEWfAYhBpQ+HA5wXo=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/_CodeSignature/CodeResources</key>
@@ -6843,11 +6843,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YYypyCx75odw4LkjbTkm8qgsAoc=
+			VmE+EDu8gbH12MfVKpSAu2xsCKQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			enRgC+sBYKVWZmyGkshHZY9aRRYY3tg4M1j070++WS8=
+			Y3MVFIAGBOoveAPkuBpAKMcGZMcbGuW/qcVRGw0ISYQ=
 			</data>
 		</dict>
 		<key>ResFatos.bundle/assets/environment_default.json</key>
